@@ -1,0 +1,612 @@
+Strain_ID,MMETSP_ID,Phylum,Class,Family,Genus,Species,Strain,Clonal,Axenic,PCR,Principle Investgators
+STRAIN1,MMETSP0010_2,Bacillariophyta,Coscinodiscophyceae,Corethraceae,Corethron,hystrix,308,Unknown,No,No,E. Virginia Armbrust
+STRAIN2,MMETSP1006,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,374,Unknown,No,No,Kay Bidle
+STRAIN2,MMETSP1007,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,374,Unknown,No,No,Kay Bidle
+STRAIN2,MMETSP1008,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,374,Unknown,No,No,Kay Bidle
+STRAIN2,MMETSP1009,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,374,Unknown,No,No,Kay Bidle
+STRAIN3,MMETSP0994,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,379,Unknown,No,No,Kay Bidle
+STRAIN3,MMETSP0995,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,379,Unknown,No,No,Kay Bidle
+STRAIN3,MMETSP0996,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,379,Unknown,No,No,Kay Bidle
+STRAIN3,MMETSP0997,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,379,Unknown,No,No,Kay Bidle
+STRAIN4,MMETSP0013_2,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,costatum,1716,Unknown,No,No,E. Virginia Armbrust
+STRAIN5,MMETSP0139_2,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,australis,10249 10 AB,Yes,No,No,G Jason Smith
+STRAIN5,MMETSP0140_2,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,australis,10249 10 AB,Yes,No,No,G Jason Smith
+STRAIN5,MMETSP0141_2,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,australis,10249 10 AB,Yes,No,No,G Jason Smith
+STRAIN5,MMETSP0142_2,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,australis,10249 10 AB,Yes,No,No,G Jason Smith
+STRAIN6,MMETSP0105_2,Sarcomastigophora,Zoomastigophora,Acanthoecidae,Acanthoeca-like,sp.,10tr,Yes,No,No,Brian Palenik
+STRAIN6,MMETSP0106_2,Sarcomastigophora,Zoomastigophora,Acanthoecidae,Acanthoeca-like,sp.,10tr,Yes,No,No,Brian Palenik
+STRAIN7,MMETSP0418,Bacillariophyta,Fragilariophyceae,Cyclophoraceae,Astrosyne,radiata,13vi08-1A,Yes,No,No,Matt Ashworth
+STRAIN8,MMETSP1036_2,Dinophyta,Dinophyceae,Unknown,Azadinium,spinosum,3D9,Yes,Yes,No,Uwe John
+STRAIN8,MMETSP1037_2,Dinophyta,Dinophyceae,Unknown,Azadinium,spinosum,3D9,Yes,Yes,No,Uwe John
+STRAIN8,MMETSP1038_2,Dinophyta,Dinophyceae,Unknown,Azadinium,spinosum,3D9,Yes,Yes,No,Uwe John
+STRAIN9,MMETSP0151_2,Unknown,Lobosa,Paramoebidae,Paramoeba,atlantica,621/1 / CCAP 1560/9,Yes,No,No,Jan Pawlowski
+STRAIN10,MMETSP0758,Unknown,Unknown,Unknown,Percolomonas,cosmopolitus,AE-1 (ATCC 50343),Unknown,No,No,Alastair Simpson
+STRAIN11,MMETSP0405,Unknown,Lobosa,Trichosidae,Trichosphaerium,sp,Am-I-7 wt,No,No,No,Laura Katz
+STRAIN12,MMETSP0795,Dinophyta,Dinophyceae,Goniodomaceae,Amoebophrya,sp.,Ameob2,Yes,No,No,Jeremiah Hackett
+STRAIN13,MMETSP0922C,Perkinsozoa,Perkinsea,Perkinsidae,Perkinsus,marinus,ATCC 50439,Yes,No,Yes,Senjie Lin
+STRAIN14,MMETSP0125,Ciliophora,Oligohymenophorea,Unknown,Aristerostoma,sp.,ATCC 50986,No,No,No,Denis Lynn
+STRAIN15,MMETSP0924C,Perkinsozoa,Perkinsea,Perkinsidae,Perkinsus,chesapeaki,ATCC PRA-65,Yes,No,Yes,Senjie Lin
+STRAIN16,MMETSP0962,Labyrinthista,Labyrinthulea,Thraustochytriaceae,Schizochytrium,aggregatum,ATCC28209,Yes,Yes,No,Jackie Collier
+STRAIN16,MMETSP0963,Labyrinthista,Labyrinthulea,Thraustochytriaceae,Schizochytrium,aggregatum,ATCC28209,Yes,Yes,No,Jackie Collier
+STRAIN16,MMETSP0964,Labyrinthista,Labyrinthulea,Thraustochytriaceae,Schizochytrium,aggregatum,ATCC28209,Yes,Yes,No,Jackie Collier
+STRAIN16,MMETSP0965,Labyrinthista,Labyrinthulea,Thraustochytriaceae,Schizochytrium,aggregatum,ATCC28209,Yes,Yes,No,Jackie Collier
+STRAIN17,MMETSP0958,Labyrinthista,Labyrinthulea,Thraustochytriidae,Aurantiochytrium,limacinum,ATCCMYA-1381,Yes,Yes,No,Jackie Collier
+STRAIN17,MMETSP0959,Labyrinthista,Labyrinthulea,Thraustochytriidae,Aurantiochytrium,limacinum,ATCCMYA-1381,Yes,Yes,No,Jackie Collier
+STRAIN17,MMETSP0960,Labyrinthista,Labyrinthulea,Thraustochytriidae,Aurantiochytrium,limacinum,ATCCMYA-1381,Yes,Yes,No,Jackie Collier
+STRAIN17,MMETSP0961,Labyrinthista,Labyrinthulea,Thraustochytriidae,Aurantiochytrium,limacinum,ATCCMYA-1381,Yes,Yes,No,Jackie Collier
+STRAIN18,MMETSP0329,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,arenysensis,B593,Yes,No,No,Marina Montresor
+STRAIN19,MMETSP0327,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,delicatissima,B596,Yes,No,No,Marina Montresor
+STRAIN20,MMETSP0321,Bacillariophyta,Coscinodiscophyceae,Leptocylindraceae,Leptocylindrus,danicus var. danicus,B650,Yes,No,No,Adriana Zingone
+STRAIN21,MMETSP0322,Bacillariophyta,Coscinodiscophyceae,Leptocylindraceae,Leptocylindrus,danicus var. apora,B651,Yes,No,No,Adriana Zingone
+STRAIN22,MMETSP0018_2,Ciliophora,Oligohymenophorea,Uronematidae,Uronema,sp.,Bbcil,Yes,No,No,David Caron
+STRAIN23,MMETSP0113_2,Cercozoa,Chlorarachniophyceae,Chlorarachniaceae,Norrisiella,sphaerica,BC52,Yes,No,No,Patrick Keeling
+STRAIN24,MMETSP0933,Chlorophyta,Prasinophyceae,Mamiellaceae,Ostreococcus,prasinos,BCC99000,Yes,Yes,No,Gwenael Piganeau
+STRAIN25,MMETSP1105,Ochrophyta,Synurophyceae,Ochromonadaceae,Ochromonas,sp.,BG-1,Unknown,No,No,David Caron
+STRAIN26,MMETSP0216,Ciliophora,Spirotrichea,Protocruziidae,Protocruzia,adherens,Boccale,No,No,No,Denis Lynn
+STRAIN27,MMETSP1396,Ciliophora,Spirotrichea,Pseudokeronopsidae,Pseudokeronopsis,sp.,Brazil,Yes,No,No,Giulio Petroni
+STRAIN28,MMETSP0417,Unknown,Lobosa,Paramoebidae,Mayorella,sp,BSH-02190019,No,No,No,Laura Katz
+STRAIN28,MMETSP0447,Unknown,Unknown,Unknown,Stygamoeba,regulata,BSH-02190019,No,No,No,Laura Katz
+STRAIN29,MMETSP1367,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,C1,Unknown,No,No,Ruth Gates
+STRAIN29,MMETSP1369,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,C1,Unknown,No,No,Ruth Gates
+STRAIN30,MMETSP1370,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,C15,Unknown,No,No,Ruth Gates
+STRAIN30,MMETSP1371,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,C15,Unknown,No,No,Ruth Gates
+STRAIN31,MMETSP1100,Haptophyta,Prymnesiophyceae,Phaeocystaceae,Phaeocystis,antarctica,Caron Lab Isolate,Unknown,No,No,David Caron
+STRAIN32,MMETSP1101,Cryptophyta,Cryptophyceae,Pyrenomonadaceae,Rhodomonas,abbreviata,Caron Lab Isolate,Yes,No,No,David Caron
+STRAIN33,MMETSP1102,Cryptophyta,Cryptophyceae,Geminigeracea,Geminigera,sp.,Caron Lab Isolate,Unknown,No,No,David Caron
+STRAIN34,MMETSP1103,Ochrophyta,Chrysophyceae,Synuraceae,Paraphysomonas,bandaiensis,Caron Lab Isolate,Yes,No,No,David Caron
+STRAIN35,MMETSP1104,Bicosoecida,Bicosoecophyceae,Cafeteriaceae,Cafeteria,sp.,Caron Lab Isolate,Unknown,No,No,David Caron
+STRAIN36,MMETSP0766_2,Dinophyta,Dinophyceae,Goniodomaceae,Gambierdiscus,australes,CAWD 149,Yes,No,No,Shauna Murray
+STRAIN37,MMETSP1401,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,pusilla,CCAC1681,No,No,No,Alexandra Z. Worden
+STRAIN38,MMETSP1064,Bacillariophyta,Coscinodiscophyceae,Aulacoseiraceae,Aulacoseira,subarctica,CCAP 1002/5,Yes,No,No,E. Virginia Armbrust
+STRAIN39,MMETSP0118_2,Dinophyta,Dinophyceae,Peridiniaceae,Glenodinium,foliaceum,CCAP 1116/3,No,No,No,Patrick Keeling
+STRAIN39,MMETSP0119_2,Dinophyta,Dinophyceae,Peridiniaceae,Glenodinium,foliaceum,CCAP 1116/3,No,No,No,Patrick Keeling
+STRAIN40,MMETSP1114,,Kinetoplastea,Bodonidae,Neobodo,designis,CCAP 1951/1,Unknown,No,No,David Caron
+STRAIN41,MMETSP1098,Ochrophyta,Chrysophyceae,Chromulinaceae,Spumella,elongata,CCAP 955/1,Unknown,No,No,David Caron
+STRAIN42,MMETSP0816,Bacillariophyta,Coscinodiscophyceae,Rhizosoleniaceae,Proboscia,inermis,CCAP1064/1,Yes,No,No,Thomas Mock
+STRAIN43,MMETSP0038_2,Cryptophyta,Cryptophyceae,Cryptomonadaceae,Cryptomonas,paramecium,CCAP977/2a,Unknown,No,No,John Archibald
+STRAIN44,MMETSP1050,Cryptophyta,Cryptophyceae,Cryptomonadaceae,Cryptomonas,curvata,CCAP979/52,Unknown,No,No,John Archibald
+STRAIN45,MMETSP0229_2,Dinophyta,Dinophyceae,Pyrocystaceae,Pyrocystis,lunula,CCCM 517,Unknown,No,Yes,Juan Saldarriaga
+STRAIN46,MMETSP0228,Dinophyta,Dinophyceae,Gonyaulacaceae,Protoceratium,reticulatum,CCCM 535 (=CCMP 1889),Unknown,No,No,Juan Saldarriaga
+STRAIN47,MMETSP0225,Dinophyta,Dinophyceae,Thoracosphaeraceae,Thoracosphaera,heimii,CCCM 670 (=CCMP 1069),Unknown,No,Yes,Juan Saldarriaga
+STRAIN48,MMETSP0224,Dinophyta,Dinophyceae,Gymnodiniaceae,Togula,jolla,CCCM 725,Unknown,No,No,Juan Saldarriaga
+STRAIN49,MMETSP0109,Cercozoa,Chlorarachniophyceae,Chlorarachniaceae,Chlorarachnion,reptans,CCCM449,Yes,No,No,Patrick Keeling
+STRAIN50,MMETSP0111_2,Cercozoa,Chlorarachniophyceae,Chlorarachniaceae,Lotharella,globosa,CCCM811,Yes,No,No,Patrick Keeling
+STRAIN50,MMETSP0112_2,Cercozoa,Chlorarachniophyceae,Chlorarachniaceae,Lotharella,globosa,CCCM811,Yes,No,No,Patrick Keeling
+STRAIN51,MMETSP0120_2,Dinophyta,Dinophyceae,Peridiniaceae,Kryptoperidinium,foliaceum,CCMP 1326,No,No,No,Patrick Keeling
+STRAIN51,MMETSP0121_2,Dinophyta,Dinophyceae,Peridiniaceae,Kryptoperidinium,foliaceum,CCMP 1326,No,No,No,Patrick Keeling
+STRAIN52,MMETSP0227,Dinophyta,Dinophyceae,Suessiaceae,Polarella,glacialis,CCMP 1383,Unknown,No,No,Juan Saldarriaga
+STRAIN53,MMETSP0789,Bacillariophyta,Coscinodiscophyceae,Rhizosoleniaceae,Rhizosolenia,setigera,CCMP 1694,Unknown,Unknown,No,E. Virginia Armbrust
+STRAIN54,MMETSP1032,Dinophyta,Dinophyceae,Gonyaulacaceae,Lingulodinium,polyedra,CCMP 1738,Yes,No,No,Mary Ann Moran
+STRAIN54,MMETSP1033,Dinophyta,Dinophyceae,Gonyaulacaceae,Lingulodinium,polyedra,CCMP 1738,Yes,No,No,Mary Ann Moran
+STRAIN54,MMETSP1034,Dinophyta,Dinophyceae,Gonyaulacaceae,Lingulodinium,polyedra,CCMP 1738,Yes,No,No,Mary Ann Moran
+STRAIN54,MMETSP1035,Dinophyta,Dinophyceae,Gonyaulacaceae,Lingulodinium,polyedra,CCMP 1738,Yes,No,No,Mary Ann Moran
+STRAIN54,MMETSP0786,Bacillariophyta,Fragilariophyceae,Thalassionemataceae,Thalassionema,frauenfeldii,CCMP 1798,Unknown,No,No,E. Virginia Armbrust
+STRAIN55,MMETSP0578,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,grethea,CCMP 1804,Yes,No,No,Tatiana Rynearson
+STRAIN56,MMETSP0785,Ochrophyta,Bolidophyceae,Bolidomonoadaceae,Bolidomonas,pacifica,CCMP 1866,Unknown,No,No,E. Virginia Armbrust
+STRAIN57,MMETSP0982,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP 2436,Unknown,Yes,No,Connie Lovejoy
+STRAIN57,MMETSP0983,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP 2436,Unknown,Yes,No,Connie Lovejoy
+STRAIN57,MMETSP0984,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP 2436,Unknown,Yes,No,Connie Lovejoy
+STRAIN57,MMETSP0985,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP 2436,Unknown,Yes,No,Connie Lovejoy
+STRAIN58,MMETSP0046_2,Cryptophyta,Cryptophyceae,Geminigeracea,Guillardia,theta,CCMP 2712,Unknown,Yes,No,John Archibald
+STRAIN59,MMETSP0045_2,Chlorarachniophyta,Chlorarachniophyceae,Chlorarachniaceae,Bigelowiella,natans,CCMP 2755,Unknown,Yes,No,John Archibald
+STRAIN60,MMETSP1057,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Cyclotella,meneghiniana,CCMP 338,Yes,No,No,E. Virginia Armbrust
+STRAIN61,MMETSP1058,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Detonula,confervacea,CCMP 353,Yes,No,No,E. Virginia Armbrust
+STRAIN62,MMETSP0009_2,Bacillariophyta,Bacillariophyceae,Striatellaceae,Grammatophora,oceanica,CCMP 410,Unknown,No,No,E. Virginia Armbrust
+STRAIN63,MMETSP0448,Dinophyta,Dinophyceae,Heterocapsaceae,Heterocapsa,triquestra,CCMP 448,Yes,No,No,Susanne Menden-Deuer
+STRAIN64,MMETSP0894_2,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,CCMP 452,No,Yes,No,Rose Ann Cattolico
+STRAIN64,MMETSP0895_2,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,CCMP 452,No,Yes,No,Rose Ann Cattolico
+STRAIN64,MMETSP0896_2,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,CCMP 452,No,Yes,No,Rose Ann Cattolico
+STRAIN64,MMETSP0897_2,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,CCMP 452,No,Yes,No,Rose Ann Cattolico
+STRAIN65,MMETSP0011_2,Rhodophyta,Rhodellophyceae,Stylonemataceae,Rhodosorus,marinus,CCMP 769,Unknown,No,No,E. Virginia Armbrust
+STRAIN66,MMETSP0794_2,Bacillariophyta,Coscinodiscophyceae,Stephanopyxidacea,Stephanopyxis,turris,CCMP 815,Unknown,No,No,E. Virginia Armbrust
+STRAIN67,MMETSP0970,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,oceanica,CCMP1005,Yes,Yes,No,Bethany Jenkins
+STRAIN67,MMETSP0971,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,oceanica,CCMP1005,Yes,Yes,No,Bethany Jenkins
+STRAIN67,MMETSP0972,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,oceanica,CCMP1005,Yes,Yes,No,Bethany Jenkins
+STRAIN67,MMETSP0973,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,oceanica,CCMP1005,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP0898_2,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP0899_2,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP0900_2,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP0901_2,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1405,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1406,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1407,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1408,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1409,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1410,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1411,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1412,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1413,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1414,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1415,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1416,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1417,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1418,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1419,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1420,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1421,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN68,MMETSP1422,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1010,Yes,Yes,No,Bethany Jenkins
+STRAIN69,MMETSP0737,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,miniscula,CCMP1093,Yes,No,No,Sarah Smith
+STRAIN69,MMETSP0738,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,miniscula,CCMP1093,Yes,No,No,Sarah Smith
+STRAIN69,MMETSP0739,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,miniscula,CCMP1093,Yes,No,No,Sarah Smith
+STRAIN69,MMETSP0740,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,miniscula,CCMP1093,Yes,No,No,Sarah Smith
+STRAIN70,MMETSP1352,Bacillariophyta,Bacillariophyceae,Stauroneidaceae,Stauroneis,constricta,CCMP1120,Unknown,No,No,Willie Wilson
+STRAIN71,MMETSP0328,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,minutum,CCMP113,Yes,No,Yes,Kjetill Sigurd Jakobsen
+STRAIN72,MMETSP1042,Cryptophyta,Cryptophyceae,Hemiselmidaceae,Hemiselmis,andersenii,CCMP1180,Unknown,Unknown,No,John Archibald
+STRAIN73,MMETSP0941,Chlorophyta,Prasinophyceae,Pyncnococcaceae,Prasinococcus,capsulatus,CCMP1194,Unknown,No,No,Alexandra Z. Worden
+STRAIN74,MMETSP1358,Chlorarachniophyta,Chlorarachniophyceae,Chlorarachniaceae,Bigelowiella,natans,CCMP1242,Unknown,No,No,John Archibald
+STRAIN75,MMETSP1173,Ochrophyta,Dictyochophyceae,Rhizochromulinaceae,Rhizochromulina,marina cf,CCMP1243,Unknown,No,No,Willie Wilson
+STRAIN76,MMETSP1090,Haptophyta,Prymnesiophyceae,Isochrysidaceae,Isochrysis,sp,CCMP1244,Unknown,No,No,Alexandra Z. Worden
+STRAIN76,MMETSP1388,Haptophyta,Prymnesiophyceae,Isochrysidaceae,Isochrysis,sp,CCMP1244,No,No,No,Alexandra Z. Worden
+STRAIN77,MMETSP1065,Bacillariophyta,Bacillariophyceae,Amphipleuraceae,Amphiprora,paludosa,CCMP125,Unknown,Unknown,No,E. Virginia Armbrust
+STRAIN78,MMETSP1055,Unknown,Unknown,Unknown,Bigelowiella,natans,CCMP1258.1,Unknown,Unknown,No,John Archibald
+STRAIN79,MMETSP1054,Unknown,Unknown,Unknown,Bigelowiella,natans,CCMP1259,Unknown,Unknown,No,John Archibald
+STRAIN80,MMETSP0316,Bacillariophyta,Bacillariophyceae,Catenulaceae,Amphora,coffeaeformis,CCMP127,Unknown,Yes,No,Peter Stief
+STRAIN80,MMETSP0317,Bacillariophyta,Bacillariophyceae,Catenulaceae,Amphora,coffeaeformis,CCMP127,Unknown,Yes,No,Peter Stief
+STRAIN80,MMETSP0318_2,Bacillariophyta,Bacillariophyceae,Catenulaceae,Amphora,coffeaeformis,CCMP127,Unknown,Yes,No,Peter Stief
+STRAIN81,MMETSP0258,Dinophyta,Dinophyceae,Gymnodiniaceae,Amphidinium,carterae,CCMP1314,Unknown,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN81,MMETSP0259,Dinophyta,Dinophyceae,Gymnodiniaceae,Amphidinium,carterae,CCMP1314,Unknown,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN81,MMETSP0398C,Dinophyta,Dinophyceae,Gymnodiniaceae,Amphidinium,carterae,CCMP1314,Yes,No,Yes,Senjie Lin
+STRAIN82,MMETSP0751,Bacillariophyta,Coscinodiscophyceae,Chaetocerotaceae,Chaetoceros,neogracile,CCMP1317,Yes,No,No,Sarah Smith
+STRAIN82,MMETSP0752,Bacillariophyta,Coscinodiscophyceae,Chaetocerotaceae,Chaetoceros,neogracile,CCMP1317,Yes,No,No,Sarah Smith
+STRAIN82,MMETSP0753,Bacillariophyta,Coscinodiscophyceae,Chaetocerotaceae,Chaetoceros,neogracile,CCMP1317,Yes,No,No,Sarah Smith
+STRAIN82,MMETSP0754,Bacillariophyta,Coscinodiscophyceae,Chaetocerotaceae,Chaetoceros,neogracile,CCMP1317,Yes,No,No,Sarah Smith
+STRAIN83,MMETSP1047,Cryptophyta,Cryptophyceae,Pyrenomonadaceae,Rhodomonas,salina,CCMP1319,Unknown,Unknown,No,John Archibald
+STRAIN84,MMETSP1126,Chlorophyta,Chlorophyceae,Dunaliellaceae,Dunaliella,tertiolecta,CCMP1320,Yes,Yes,No,Sheri Floge
+STRAIN84,MMETSP1127,Chlorophyta,Chlorophyceae,Dunaliellaceae,Dunaliella,tertiolecta,CCMP1320,Yes,Yes,No,Sheri Floge
+STRAIN84,MMETSP1128,Chlorophyta,Chlorophyceae,Dunaliellaceae,Dunaliella,tertiolecta,CCMP1320,Yes,Yes,No,Sheri Floge
+STRAIN85,MMETSP0595,Haptophyta,Prymnesiophyceae,Isochrysidaceae,Isochrysis,galbana,CCMP1323,Yes,No,No,Susanne Menden-Deuer
+STRAIN85,MMETSP0943,Haptophyta,Prymnesiophyceae,Isochrysidaceae,Isochrysis,galbana,CCMP1323,Unknown,Unknown,No,Linda A. Amaral-Zettler
+STRAIN85,MMETSP0944,Haptophyta,Prymnesiophyceae,Isochrysidaceae,Isochrysis,galbana,CCMP1323,Unknown,Unknown,No,Linda A. Amaral-Zettler
+STRAIN86,MMETSP1129,Haptophyta,Prymnesiophyceae,Isochrysidaceae,Isochrysis,sp.,CCMP1324,Yes,Yes,No,Sheri Floge
+STRAIN86,MMETSP1130,Haptophyta,Prymnesiophyceae,Isochrysidaceae,Isochrysis,sp.,CCMP1324,Yes,Yes,No,Sheri Floge
+STRAIN86,MMETSP1131,Haptophyta,Prymnesiophyceae,Isochrysidaceae,Isochrysis,sp.,CCMP1324,Yes,Yes,No,Sheri Floge
+STRAIN86,MMETSP1132,Haptophyta,Prymnesiophyceae,Isochrysidaceae,Isochrysis,sp.,CCMP1324,Yes,Yes,No,Sheri Floge
+STRAIN87,MMETSP0878,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1336,Yes,No,No,Francois Morel
+STRAIN87,MMETSP0879,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1336,Yes,No,No,Francois Morel
+STRAIN87,MMETSP0880,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1336,Yes,No,No,Francois Morel
+STRAIN87,MMETSP0881,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,weissflogii,CCMP1336,Yes,No,No,Francois Morel
+STRAIN88,MMETSP0705,Bacillariophyta,Fragilariophyceae,Fragilariaceae,Asterionellopsis,glacialis,CCMP134,Yes,No,No,Sarah Smith
+STRAIN88,MMETSP0706,Bacillariophyta,Fragilariophyceae,Fragilariaceae,Asterionellopsis,glacialis,CCMP134,Yes,No,No,Sarah Smith
+STRAIN88,MMETSP0707,Bacillariophyta,Fragilariophyceae,Fragilariaceae,Asterionellopsis,glacialis,CCMP134,Yes,No,No,Sarah Smith
+STRAIN88,MMETSP0708,Bacillariophyta,Fragilariophyceae,Fragilariaceae,Asterionellopsis,glacialis,CCMP134,Yes,No,No,Sarah Smith
+STRAIN89,MMETSP1444,Haptophyta,Prymnesiophyceae,Phaeocystaceae,Phaeocystis,antarctica,CCMP1374,Yes,No,No,Mike Preston
+STRAIN90,MMETSP1174,Ochrophyta,Dictyochophyceae,Dictyochaceae,Dictyocha,speculum,CCMP1381,Unknown,No,No,Willie Wilson
+STRAIN91,MMETSP1438,Chlorophyta,Prasinophyceae,Pterospermataceae,Pterosperma,sp.,CCMP1384,Yes,No,No,Mike Preston
+STRAIN92,MMETSP0004_2,Ochrophyta,Synurophyceae,Ochromonadaceae,Ochromonas,sp.,CCMP1393,Unknown,No,No,David Caron
+STRAIN92,MMETSP0005,Ochrophyta,Synurophyceae,Ochromonadaceae,Ochromonas,sp.,CCMP1393,Unknown,No,No,David Caron
+STRAIN93,MMETSP0806_2,Chlorophyta,Prasinophyceae,Pyncnococcaceae,Prasinoderma,coloniale,CCMP1413,Unknown,No,No,Alexandra Z. Worden
+STRAIN94,MMETSP0882,Ochrophyta,Pelagophyceae,Pelagomonodaceae,Pelagococcus,subviridis,CCMP1429,Unknown,No,No,Christopher Gobler
+STRAIN94,MMETSP0883,Ochrophyta,Pelagophyceae,Pelagomonodaceae,Pelagococcus,subviridis,CCMP1429,Unknown,No,No,Christopher Gobler
+STRAIN94,MMETSP0884,Ochrophyta,Pelagophyceae,Pelagomonodaceae,Pelagococcus,subviridis,CCMP1429,Unknown,No,No,Christopher Gobler
+STRAIN94,MMETSP0885,Ochrophyta,Pelagophyceae,Pelagomonodaceae,Pelagococcus,subviridis,CCMP1429,Unknown,No,No,Christopher Gobler
+STRAIN95,MMETSP1468,Chlorophyta,Mamiellophyceae,Mamiellaceae,Mantoniella,sp,CCMP1436,Yes,No,No,Mike Preston
+STRAIN96,MMETSP1437,Bacillariophyta,Coscinodiscophyceae,Hemiaulaceae,Eucampia,antarctica,CCMP1452,Yes,Unknown,No,Mike Preston
+STRAIN97,MMETSP1175,Bacillariophyta,Bacillariophyceae,Triceratiaceae,Triceratium,dubium,CCMP147,Unknown,No,No,Willie Wilson
+STRAIN98,MMETSP0890,Ochrophyta,Pelagophyceae,Sarcionochrysidaceae,Aureoumbra,lagunensis,CCMP1510,Yes,Unknown,No,Christopher Gobler
+STRAIN98,MMETSP0891,Ochrophyta,Pelagophyceae,Sarcionochrysidaceae,Aureoumbra,lagunensis,CCMP1510,Yes,Unknown,No,Christopher Gobler
+STRAIN98,MMETSP0892,Ochrophyta,Pelagophyceae,Sarcionochrysidaceae,Aureoumbra,lagunensis,CCMP1510,Yes,Unknown,No,Christopher Gobler
+STRAIN98,MMETSP0893,Ochrophyta,Pelagophyceae,Sarcionochrysidaceae,Aureoumbra,lagunensis,CCMP1510,Yes,Unknown,No,Christopher Gobler
+STRAIN99,MMETSP1394,Bacillariophyta,Fragilariophyceae,Fragilariaceae,Asterionellopsis,glacialis,CCMP1581,Unknown,No,No,E. Virginia Armbrust
+STRAIN100,MMETSP0809,Euglenozoa,Euglenida,Eutreptiaceae,Eutreptiella,gymnastica-like,CCMP1594,Unknown,No,No,David Caron
+STRAIN100,MMETSP0810,Euglenozoa,Euglenida,Eutreptiaceae,Eutreptiella,gymnastica-like,CCMP1594,Unknown,No,No,David Caron
+STRAIN100,MMETSP0811_2,Euglenozoa,Euglenida,Eutreptiaceae,Eutreptiella,gymnastica-like,CCMP1594,Unknown,No,No,David Caron
+STRAIN101,MMETSP1176,Bacillariophyta,Bacillariophyceae/Fragilariophyceae,Fragilariaceae,Synedropsis,recta cf,CCMP1620,No,No,No,Willie Wilson
+STRAIN102,MMETSP1435,Bacillariophyta,Bacillariophyceae,Chaetocerotaceae,Chaetoceros,brevis,CCMP164,Yes,No,No,Mike Preston
+STRAIN103,MMETSP1080,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,sp,CCMP1646,Unknown,Yes,No,Alexandra Z. Worden
+STRAIN104,MMETSP1339,Ochrophyta,Raphidophyceae,Chattonellaceae,Fibrocapsa,japonica,CCMP1661,Unknown,No,No,Willie Wilson
+STRAIN105,MMETSP0196C,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,fundyense,CCMP1719,Yes,No,Yes,Senjie Lin
+STRAIN105,MMETSP0347,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,fundyense,CCMP1719,Yes,No,Yes,Kjetill Sigurd Jakobsen
+STRAIN106,MMETSP1403,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,pusilla,CCMP1723,No,No,No,Alexandra Z. Worden
+STRAIN107,MMETSP1447,Bacillariophyta,Bacillariophyceae,Chaetocerotaceae,Chaetoceros,dichaeta,CCMP1751,Yes,No,No,Mike Preston
+STRAIN108,MMETSP0886,Ochrophyta,Pelagophyceae,Pelagomonodaceae,Pelagomonas,calceolata,CCMP1756,Unknown,No,No,Christopher Gobler
+STRAIN108,MMETSP0887,Ochrophyta,Pelagophyceae,Pelagomonodaceae,Pelagomonas,calceolata,CCMP1756,Unknown,No,No,Christopher Gobler
+STRAIN108,MMETSP0888,Ochrophyta,Pelagophyceae,Pelagomonodaceae,Pelagomonas,calceolata,CCMP1756,Unknown,No,No,Christopher Gobler
+STRAIN108,MMETSP0889,Ochrophyta,Pelagophyceae,Pelagomonodaceae,Pelagomonas,calceolata,CCMP1756,Unknown,No,No,Christopher Gobler
+STRAIN109,MMETSP0143,Haptophyta,Prymnesiophyceae,Prymnesiaceae,Chrysochromulina,polylepis,CCMP1757,Yes,Yes,No,Sonya Dyhrman and Andrew Juhl
+STRAIN109,MMETSP0145,Haptophyta,Prymnesiophyceae,Prymnesiaceae,Chrysochromulina,polylepis,CCMP1757,Yes,Yes,No,Sonya Dyhrman and Andrew Juhl
+STRAIN109,MMETSP0146,Haptophyta,Prymnesiophyceae,Prymnesiaceae,Chrysochromulina,polylepis,CCMP1757,Yes,Yes,No,Sonya Dyhrman and Andrew Juhl
+STRAIN109,MMETSP0147,Haptophyta,Prymnesiophyceae,Prymnesiaceae,Chrysochromulina,polylepis,CCMP1757,Yes,Yes,No,Sonya Dyhrman and Andrew Juhl
+STRAIN110,MMETSP0378,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,tamarense,CCMP1771,Yes,Yes,No,Mary Ann Moran
+STRAIN110,MMETSP0380,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,tamarense,CCMP1771,Yes,Yes,No,Mary Ann Moran
+STRAIN110,MMETSP0382,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,tamarense,CCMP1771,Yes,Yes,No,Mary Ann Moran
+STRAIN110,MMETSP0384,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,tamarense,CCMP1771,Yes,Yes,No,Mary Ann Moran
+STRAIN111,MMETSP0044,Dinophyta,Dinophyceae,Oxyrrhinaceae,Oxyrrhis,marina,CCMP1788,Unknown,No,Yes,Claudio Slamovits
+STRAIN112,MMETSP0451_2C,Dinophyta,Dinophyceae,Oxyrrhinaceae,Oxyrrhis,marina,CCMP1795,Unknown,Unknown,Yes,Senjie Lin
+STRAIN113,MMETSP0914,Ochrophyta,Pelagophyceae,Pelagomonodaceae,Aureococcus,anophagefferens,CCMP1850,Yes,Yes,No,Christopher Gobler
+STRAIN113,MMETSP0915,Ochrophyta,Pelagophyceae,Pelagomonodaceae,Aureococcus,anophagefferens,CCMP1850,Yes,Yes,No,Christopher Gobler
+STRAIN113,MMETSP0916,Ochrophyta,Pelagophyceae,Pelagomonodaceae,Aureococcus,anophagefferens,CCMP1850,Yes,Yes,No,Christopher Gobler
+STRAIN113,MMETSP0917,Ochrophyta,Pelagophyceae,Pelagomonodaceae,Aureococcus,anophagefferens,CCMP1850,Yes,Yes,No,Christopher Gobler
+STRAIN114,MMETSP1362,Bacillariophyta,Coscinodiscophyceae,Leptocylindraceae,Leptocylindrus,danicus,CCMP1856,Unknown,No,No,E. Virginia Armbrust
+STRAIN115,MMETSP0107_2,Cryptophyta,Cryptophyceae,Goniomonodaceae,Goniomonas,Pacifica,CCMP1869,Yes,No,No,Brian Palenik
+STRAIN115,MMETSP0108,Cryptophyta,Cryptophyceae,Goniomonodaceae,Goniomonas,Pacifica,CCMP1869,Yes,No,No,Brian Palenik
+STRAIN116,MMETSP0807_2,Chlorophyta,Unknown,Unknown,Picocystis,salinarum,CCMP1897,Unknown,No,No,Alexandra Z. Worden
+STRAIN116,MMETSP1159,Chlorophyta,Unknown,Unknown,Picocystis,salinarum,CCMP1897,Unknown,No,No,Willie Wilson
+STRAIN117,MMETSP1399,Chlorophyta,Prasinophyceae,Bathycoccaceae,Bathycoccus,prasinos,CCMP1898,Unknown,No,No,Alexandra Z. Worden
+STRAIN118,MMETSP1177,Ochrophyta,Chrysophyceae,Chromulinaceae,Ochromonas,sp,CCMP1899,No,No,No,Willie Wilson
+STRAIN119,MMETSP1085,Chlorophyta,Prasinophyceae,Pyncnococcaceae,Pycnococcus,sp,CCMP1998,Unknown,No,No,Alexandra Z. Worden
+STRAIN120,MMETSP1475,,,,Unidentified,sp.,CCMP1999,Yes,No,No,Mike Preston
+STRAIN121,MMETSP1178,Haptophyta,Prymnesiophyceae,,unid,sp,CCMP2000,No,No,No,Willie Wilson
+STRAIN122,MMETSP0110_2,Cercozoa,Chlorarachniophyceae,Chlorarachniaceae,Gymnochlora,sp.,CCMP2014,Yes,No,No,Patrick Keeling
+STRAIN123,MMETSP0042_2,Cercozoa,Chlorarachniophyceae,Chlorarachniaceae,Lotharella,amoebiformis,CCMP2058,Yes,Yes,No,John Archibald
+STRAIN124,MMETSP1160,Ochrophyta,Dictyochophyceae,Pinguiochrysidaceae,Pinguiococcus,pyrenoidosus,CCMP2078,Unknown,Yes,No,Willie Wilson
+STRAIN125,MMETSP1449,Bacillariophyta,Coscinodiscophyceae,Attheyaceae,Attheya,septentrionalis,CCMP2084,Yes,No,No,Mike Preston
+STRAIN126,MMETSP1445,Chlorophyta,Prasinophyceae,Halosphaeraceae,Pyramimonas,sp.,CCMP2087,Yes,No,No,Mike Preston
+STRAIN127,MMETSP1440,Alveolata,Dinophyceae,Suessiaceae,Polarella,glacialis,CCMP2088,Yes,No,No,Mike Preston
+STRAIN128,MMETSP0974,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP2097,Unknown,Yes,No,Connie Lovejoy
+STRAIN128,MMETSP0975,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP2097,Unknown,Yes,No,Connie Lovejoy
+STRAIN128,MMETSP0976,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP2097,Unknown,Yes,No,Connie Lovejoy
+STRAIN128,MMETSP0977,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP2097,Unknown,Yes,No,Connie Lovejoy
+STRAIN129,MMETSP0990,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP2098,Unknown,Yes,No,Connie Lovejoy
+STRAIN129,MMETSP0991,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP2098,Unknown,Yes,No,Connie Lovejoy
+STRAIN129,MMETSP0992,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP2098,Unknown,Yes,No,Connie Lovejoy
+STRAIN129,MMETSP0993,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP2098,Unknown,Yes,No,Connie Lovejoy
+STRAIN130,MMETSP0802,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,sp.,CCMP2099,Unknown,No,No,Alexandra Z. Worden
+STRAIN130,MMETSP1390,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,sp.,CCMP2099,Unknown,No,No,Alexandra Z. Worden
+STRAIN131,MMETSP1446,,,,Unidentified,sp,CCMP2111,Yes,No,No,Mike Preston
+STRAIN132,MMETSP1467,,,,unid.,sp.,CCMP2135,Yes,No,No,Mike Preston
+STRAIN133,MMETSP0063_2,Chlorophyta,Chlorophyceae,Chlamydomonadaceae,Chlamydomonas,euryale,CCMP219,Yes,Yes,No,Aurora Nedelcu
+STRAIN134,MMETSP0947,Ochrophyta,Raphidophyceae,Chattonellaceae,Chattonella,subsalsa,CCMP2191,No,No,No,Kathryn Coyne
+STRAIN134,MMETSP0948,Ochrophyta,Raphidophyceae,Chattonellaceae,Chattonella,subsalsa,CCMP2191,No,No,No,Kathryn Coyne
+STRAIN134,MMETSP0949,Ochrophyta,Raphidophyceae,Chattonellaceae,Chattonella,subsalsa,CCMP2191,No,No,No,Kathryn Coyne
+STRAIN134,MMETSP0950,Ochrophyta,Raphidophyceae,Chattonellaceae,Chattonella,subsalsa,CCMP2191,No,No,No,Kathryn Coyne
+STRAIN135,MMETSP1436,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,andersonii,CCMP2222,Yes,Unknown,No,Mike Preston
+STRAIN136,MMETSP0027,Dinophyta,Dinophyceae,Gymnodiniaceae,Karenia,brevis,CCMP2229,Yes,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN136,MMETSP0029,Dinophyta,Dinophyceae,Gymnodiniaceae,Karenia,brevis,CCMP2229,Yes,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN136,MMETSP0030,Dinophyta,Dinophyceae,Gymnodiniaceae,Karenia,brevis,CCMP2229,Yes,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN136,MMETSP0031,Dinophyta,Dinophyceae,Gymnodiniaceae,Karenia,brevis,CCMP2229,Yes,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN137,MMETSP0267,Dinophyta,Dinophyceae,Prorocentraceae,Prorocentrum,minimum,CCMP2233,Unknown,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN137,MMETSP0268,Dinophyta,Dinophyceae,Prorocentraceae,Prorocentrum,minimum,CCMP2233,Unknown,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN137,MMETSP0269,Dinophyta,Dinophyceae,Prorocentraceae,Prorocentrum,minimum,CCMP2233,Unknown,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN137,MMETSP1015,Dinophyta,Dinophyceae,Gymnodiniaceae,Karlodinium,micrum,CCMP2283,Unknown,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN137,MMETSP1016,Dinophyta,Dinophyceae,Gymnodiniaceae,Karlodinium,micrum,CCMP2283,Unknown,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN137,MMETSP1017,Dinophyta,Dinophyceae,Gymnodiniaceae,Karlodinium,micrum,CCMP2283,Unknown,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN137,MMETSP0986,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP2293,Unknown,Yes,No,Connie Lovejoy
+STRAIN137,MMETSP0987,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP2293,Unknown,Yes,No,Connie Lovejoy
+STRAIN137,MMETSP0988,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP2293,Unknown,Yes,No,Connie Lovejoy
+STRAIN137,MMETSP0989,Unknown,Unknown,Unknown,Undescribed,Undescribed,CCMP2293,Unknown,Yes,No,Connie Lovejoy
+STRAIN138,MMETSP1141,,,,Undescribed,Undescribed,CCMP2298,No,Yes,No,Connie Lovejoy
+STRAIN138,MMETSP1142,,,,Undescribed,Undescribed,CCMP2298,No,Yes,No,Connie Lovejoy
+STRAIN138,MMETSP1143,,,,Undescribed,Undescribed,CCMP2298,No,Yes,No,Connie Lovejoy
+STRAIN138,MMETSP1144,,,,Undescribed,Undescribed,CCMP2298,No,Yes,No,Connie Lovejoy
+STRAIN139,MMETSP1360,Bacillariophyta,Bacillariophyceae,Licmophoraceae,Licmophora,paradoxa,CCMP2313,Unknown,No,No,E. Virginia Armbrust
+STRAIN140,MMETSP1161,Chlorophyta,Trebouxiophyceae,Chlorellales incertae sedis,Picochlorum,oklahomensis,CCMP2329,Unknown,Unknown,No,Willie Wilson
+STRAIN141,MMETSP0292,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,CCMP2393,Yes,No,No,Sonya Dyhrman and Andrew Juhl
+STRAIN141,MMETSP0294,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,CCMP2393,Yes,No,No,Sonya Dyhrman and Andrew Juhl
+STRAIN141,MMETSP0295,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,CCMP2393,Yes,No,No,Sonya Dyhrman and Andrew Juhl
+STRAIN141,MMETSP0296,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,CCMP2393,Yes,No,No,Sonya Dyhrman and Andrew Juhl
+STRAIN142,MMETSP1443,Bacillariophyta,Bacillariophyceae,Entomoneidaceae,Entomoneis,sp.,CCMP2396,Yes,No,No,Mike Preston
+STRAIN143,MMETSP1359,Chlorarachniophyta,Chlorarachniophyceae,Chlorarachniaceae,Bigelowiella,longifila,CCMP242,Unknown,No,No,John Archibald
+STRAIN144,MMETSP1115,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,CCMP2430,No,No,No,Willie Wilson
+STRAIN144,MMETSP1116,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,CCMP2430,No,No,No,Willie Wilson
+STRAIN144,MMETSP1117,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,CCMP2430,No,No,No,Willie Wilson
+STRAIN145,MMETSP0132_2C,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,kawagutii,CCMP2468,Yes,No,Yes,Senjie Lin
+STRAIN146,MMETSP1344,Ochrophyta,Dictyochophyceae,Florenciellales incertae sedis,Florenciella,parvula,CCMP2471,Unknown,No,No,Willie Wilson
+STRAIN147,MMETSP0593,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,japonicum,CCMP2506,Yes,No,No,Tatiana Rynearson
+STRAIN148,MMETSP1066,Bacillariophyta,Coscinodiscophyceae,Conscinodiscaceae,Coscinodiscus,wailesii,CCMP2513,Yes,No,No,E. Virginia Armbrust
+STRAIN149,MMETSP0798,Ciliophora,Litostomatea,Mesodiniidae,Myrionecta,rubra,CCMP2563,Yes,No,No,Jeremiah Hackett
+STRAIN150,MMETSP0799,Cryptophyta,Cryptophyceae,Geminigeracea,Geminigera,cryophila,CCMP2564,Yes,No,No,Jeremiah Hackett
+STRAIN151,MMETSP1361,Bacillariophyta,Fragilariophyceae,Fragilariaceae,Staurosira,complex sp.,CCMP2646,Unknown,No,No,E. Virginia Armbrust
+STRAIN152,MMETSP1162,Haptophyta,Prymnesiophyceae,Phaeocystacear,Phaeocystis,Sp,CCMP2710,Unknown,No,No,Willie Wilson
+STRAIN153,MMETSP1096,Haptophyta,Prymnesiophyceae,Prymnesiaceae,Chrysochromulina,ericina,CCMP281,Unknown,No,No,David Caron
+STRAIN154,MMETSP1163,Ochrophyta,Pinguiophyceae,Pinguiochrysidaceae,Phaeomonas,parva,CCMP2877,Unknown,No,No,Willie Wilson
+STRAIN155,MMETSP0290,Unknown,Unknown,Unknown,Chromera,velia,CCMP2878,Yes,Yes,No,Patrick Keeling
+STRAIN156,MMETSP0800,Bacillariophyta,Bacillariophyceae,Striatellaceae,Striatella,unipunctata,CCMP2910,Unknown,No,No,E. Virginia Armbrust
+STRAIN157,MMETSP0945,Ochrophyta,Xanthophyceae,Vaucheriaceae,Vaucheria,litorea,CCMP2940,No,No,No,Mary Rumpho
+STRAIN157,MMETSP0946,Ochrophyta,Xanthophyceae,Vaucheriaceae,Vaucheria,litorea,CCMP2940,No,No,No,Mary Rumpho
+STRAIN158,MMETSP1164,Ochrophyta,Pelagophyceae,,Chrysoreinhardia,sp,CCMP2950,Unknown,No,No,Willie Wilson
+STRAIN159,MMETSP1452,,,Synchromophyceae,Synchroma,pusillum,CCMP3072,Yes,No,No,Mike Preston
+STRAIN160,MMETSP0403,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,rotula,CCMP3096,Yes,Yes,No,Bethany Jenkins
+STRAIN160,MMETSP0404_2,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,rotula,CCMP3096,Yes,Yes,No,Bethany Jenkins
+STRAIN161,MMETSP0270,Dinophyta,Dinophyceae,Peridiniaceae,Scrippsiella,trochoidea,CCMP3099,No,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN161,MMETSP0271,Dinophyta,Dinophyceae,Peridiniaceae,Scrippsiella,trochoidea,CCMP3099,No,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN161,MMETSP0272,Dinophyta,Dinophyceae,Peridiniaceae,Scrippsiella,trochoidea,CCMP3099,No,No,No,Geoff Sinclair and Boris Wawrik
+STRAIN162,MMETSP0093,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,monilatum,CCMP3105,Yes,No,No,Sonya Dyhrman and Andrew Juhl
+STRAIN162,MMETSP0095,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,monilatum,CCMP3105,Yes,No,No,Sonya Dyhrman and Andrew Juhl
+STRAIN162,MMETSP0096,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,monilatum,CCMP3105,Yes,No,No,Sonya Dyhrman and Andrew Juhl
+STRAIN162,MMETSP0097,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,monilatum,CCMP3105,Yes,No,No,Sonya Dyhrman and Andrew Juhl
+STRAIN163,MMETSP0409,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,CCMP3107,Yes,No,No,Susanne Menden-Deuer
+STRAIN163,MMETSP0410,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,CCMP3107,Yes,No,No,Susanne Menden-Deuer
+STRAIN163,MMETSP0411,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,CCMP3107,Yes,No,No,Susanne Menden-Deuer and Leo Tolstoy
+STRAIN164,MMETSP1353,Rhodophyta,Bangiophyceae,Porphyridiaceae,Erythrolobus,australicus,CCMP3124,Unknown,No,No,Willie Wilson
+STRAIN165,MMETSP0288,Apicomplexa,Aconoidasia,Bbesiidae,Alveolata,sp.,CCMP3155,Yes,No,No,Patrick Keeling
+STRAIN166,MMETSP1165,Ochrophyta,Dictyochophyceae,Sarcinochrysidaceae,Chrysocystis,fragilis,CCMP3189,Unknown,No,No,Willie Wilson
+STRAIN167,MMETSP1166,Ochrophyta,Pelagophyceae,,Chrysoreinhardia,sp,CCMP3193,Unknown,No,No,Willie Wilson
+STRAIN168,MMETSP1450,Rhodophyta,Compsopogonophyceae,Erythrotrichiaceae,Madagascaria,erythrocladiodes,CCMP3234,Yes,No,No,Mike Preston
+STRAIN169,MMETSP1048,Cryptophyta,Cryptophyceae,Geminigeraceae,Hanusia,phi,CCMP325,Unknown,Unknown,No,John Archibald
+STRAIN170,MMETSP0803_2,Chlorophyta,Prasinophyceae,Unknown,Crustomastix,stigmata,CCMP3273,Unknown,No,No,Alexandra Z. Worden
+STRAIN171,MMETSP0033_2,Chlorophyta,Prasinophyceae,Mamiellaceae,Dolichomastix,tenuilepis,CCMP3274,Unknown,Unknown,No,Alexandra Z. Worden
+STRAIN172,MMETSP1167,Ochrophyta,Synurophyceae,Mallomonadaceae,Mallomonas,Sp,CCMP3275,Unknown,No,No,Willie Wilson
+STRAIN173,MMETSP1354,Rhodophyta,Bangiophyceae,Porphyridiaceae,Erythrolobus,madagascarensis,CCMP3276,Unknown,No,No,Willie Wilson
+STRAIN174,MMETSP1172,Rhodophyta,Porphyridiophyceae,Porphyridiaceae,Timspurckia,oligopyrenoides,CCMP3278,Unknown,No,No,Willie Wilson
+STRAIN175,MMETSP1434,Bacillariophyta,Bacillariophyceae,Thalassiosiraceae,Minutocellus,polymorphus,CCMP3303,Yes,No,No,Mike Preston
+STRAIN176,MMETSP1442,Ochrophyta,Bacillariophyceae,Naviculaceae,Craspedostauros,australis,CCMP3328,Yes,No,No,Mike Preston
+STRAIN177,MMETSP1451,Alveolata,Chromerida,,Vitrella,brassicaformis,CCMP3346,Yes,No,No,Mike Preston
+STRAIN178,MMETSP1154,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,CCMP370,Unknown,No,No,Francois Morel
+STRAIN178,MMETSP1155,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,CCMP370,Unknown,No,No,Francois Morel
+STRAIN178,MMETSP1156,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,CCMP370,Unknown,No,No,Francois Morel
+STRAIN178,MMETSP1157,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,CCMP370,Unknown,No,No,Francois Morel
+STRAIN179,MMETSP0696,Bacillariophyta,Coscinodiscophyceae,Cymatosiraceae,Extubocellulus,spinifer,CCMP396,Yes,Yes,No,Sarah Smith
+STRAIN179,MMETSP0697,Bacillariophyta,Coscinodiscophyceae,Cymatosiraceae,Extubocellulus,spinifer,CCMP396,Yes,Yes,No,Sarah Smith
+STRAIN179,MMETSP0698,Bacillariophyta,Coscinodiscophyceae,Cymatosiraceae,Extubocellulus,spinifer,CCMP396,Yes,Yes,No,Sarah Smith
+STRAIN179,MMETSP0699,Bacillariophyta,Coscinodiscophyceae,Cymatosiraceae,Extubocellulus,spinifer,CCMP396,Yes,Yes,No,Sarah Smith
+STRAIN180,MMETSP1439,Pyrrophycophyta,Dinophyceae,Gonyaulacaceae,Gonyaulax,spinifera,CCMP409,Unknown,No,No,Mike Preston
+STRAIN181,MMETSP1110,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,CCMP421,No,No,No,Willie Wilson
+STRAIN182,MMETSP1041,Cryptophyta,Cryptophyceae,Hemiselmidaceae,Hemiselmis,andersenii,CCMP439,Unknown,Unknown,No,John Archibald
+STRAIN183,MMETSP1043,Cryptophyta,Cryptophyceae,Hemiselmidaceae,Hemiselmis,andersenii,CCMP441,Unknown,Unknown,No,John Archibald
+STRAIN184,MMETSP1355,Cryptophyta,Cryptophyceae,Hemiselmidaceae,Hemiselmis,tepida,CCMP443,Unknown,Unknown,No,John Archibald
+STRAIN185,MMETSP1441,Alveolata,Dinophyceae,Heterocapsaceae,Heterocapsa,arctica,CCMP445,Yes,Yes,No,Mike Preston
+STRAIN186,MMETSP1139,Haptophyta,Pavlovophyceae,Pavlovaceae,Pavlova,sp.,CCMP459,Yes,Yes,No,Sheri Floge
+STRAIN186,MMETSP1140,Haptophyta,Pavlovophyceae,Pavlovaceae,Pavlova,sp.,CCMP459,Yes,Yes,No,Sheri Floge
+STRAIN186,MMETSP1381,Haptophyta,Pavlovophyceae,Pavlovaceae,Pavlova,sp.,CCMP459,Yes,Yes,No,Sheri Floge
+STRAIN187,MMETSP0724,Bacillariophyta,Bacillariophyceae,Amphipleuraceae,Amphiprora,sp.,CCMP467,Yes,No,No,Sarah Smith
+STRAIN187,MMETSP0725,Bacillariophyta,Bacillariophyceae,Amphipleuraceae,Amphiprora,sp.,CCMP467,Yes,No,No,Sarah Smith
+STRAIN187,MMETSP0726,Bacillariophyta,Bacillariophyceae,Amphipleuraceae,Amphiprora,sp.,CCMP467,Yes,No,No,Sarah Smith
+STRAIN187,MMETSP0727,Bacillariophyta,Bacillariophyceae,Amphipleuraceae,Amphiprora,sp.,CCMP467,Yes,No,No,Sarah Smith
+STRAIN188,MMETSP1404,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,pusilla,CCMP494,No,No,No,Alexandra Z. Worden
+STRAIN189,MMETSP0744,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Nitzschia,punctata,CCMP561,Yes,No,No,Sarah Smith
+STRAIN189,MMETSP0745,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Nitzschia,punctata,CCMP561,Yes,No,No,Sarah Smith
+STRAIN189,MMETSP0746,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Nitzschia,punctata,CCMP561,Yes,No,No,Sarah Smith
+STRAIN189,MMETSP0747,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Nitzschia,punctata,CCMP561,Yes,No,No,Sarah Smith
+STRAIN190,MMETSP0040_2,Cercozoa,Chlorarachniophyceae,Chlorarachniaceae,Lotharella,oceanica,CCMP622,Unknown,Yes,No,John Archibald
+STRAIN191,MMETSP1052,Chlorarachniophyta,Chlorarachniophyceae,Chlorarachniaceae,Bigelowiella,natans,CCMP623,Unknown,Unknown,No,John Archibald
+STRAIN192,MMETSP0043_2,Cryptophyta,Cryptophyceae,Hemiselmidaceae,Hemiselmis,andersenii,CCMP644,Unknown,No,No,John Archibald
+STRAIN193,MMETSP1136,Haptophyta,Prymnesiophyceae,Pleurochrysidaceae,Pleurochrysis,carterae,CCMP645,Yes,Yes,No,Sheri Floge
+STRAIN193,MMETSP1137,Haptophyta,Prymnesiophyceae,Pleurochrysidaceae,Pleurochrysis,carterae,CCMP645,Yes,Yes,No,Sheri Floge
+STRAIN193,MMETSP1138,Haptophyta,Prymnesiophyceae,Pleurochrysidaceae,Pleurochrysis,carterae,CCMP645,Yes,Yes,No,Sheri Floge
+STRAIN194,MMETSP1180,Chlorophyta,Chlorophyceae,,Chlamydomonas,cf sp,CCMP681,Unknown,Yes,No,Willie Wilson
+STRAIN195,MMETSP1049,Cryptophyta,Cryptophyceae,Geminigeraceae,Proteomonas,sulcata,CCMP704,Unknown,Unknown,No,John Archibald
+STRAIN196,MMETSP1068,Ochrophyta,Dictyochophyceae,Pedinellaceae,Pseudopedinella,elastica,CCMP716,Yes,No,No,E. Virginia Armbrust
+STRAIN196,MMETSP1097,Ochrophyta,Dictyochophyceae,Pedinellaceae,Pseudopedinella,elastica,CCMP716,Unknown,No,No,David Caron
+STRAIN197,MMETSP0034_2,Chlorophyta,Prasinophyceae,Pycnococcaceae,Nephroselmis,pyriformis,CCMP717,Unknown,No,No,Alexandra Z. Worden
+STRAIN198,MMETSP1081,Chlorophyta,Prasinophyceae,Halosphaeraceae,Pyramimonas,amylifera,CCMP720,Unknown,No,No,Alexandra Z. Worden
+STRAIN199,MMETSP1169,Chlorophyta,Prasinophyceae,Halosphaeraceae,Pyramimonas,obovata,CCMP722,Unknown,No,No,Willie Wilson
+STRAIN200,MMETSP0058,Chlorophyta,Prasinophyceae,Halosphaeraceae,Pyramimonas,parkeae,CCMP726,Yes,Yes,No,Aurora Nedelcu
+STRAIN200,MMETSP0059,Chlorophyta,Prasinophyceae,Halosphaeraceae,Pyramimonas,parkeae,CCMP726,Yes,Yes,No,Aurora Nedelcu
+STRAIN201,MMETSP0167,Rhodophyta,Rhodellophyceae,Rhodellaceae,Rhodella,maculata,CCMP736,Yes,Yes,No,Thomas Mock
+STRAIN201,MMETSP0314,Rhodophyta,Rhodellophyceae,Rhodellaceae,Rhodella,maculata,CCMP736,Unknown,Yes,No,Patrick Keeling
+STRAIN202,MMETSP1091,Cryptophyta,Cryptophyceae,Pyrenomonadaceae,Rhodomonas,sp.,CCMP768,Unknown,No,No,Alexandra Z. Worden
+STRAIN202,MMETSP1389,Cryptophyta,Cryptophyceae,Pyrenomonadaceae,Rhodomonas,sp.,CCMP768,Unknown,No,No,Alexandra Z. Worden
+STRAIN203,MMETSP1170,Ochrophyta,Pelagophyceae,,Sarcinochrysis,sp,CCMP770,Unknown,No,No,Willie Wilson
+STRAIN204,MMETSP0603,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,menzelii,CCMP793,Yes,No,No,Tatiana Rynearson
+STRAIN204,MMETSP0604,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,menzelii,CCMP793,Yes,No,No,Tatiana Rynearson
+STRAIN205,MMETSP1171,Bacillariophyta,Mediophyceae,Lithodesmiaceae,Helicotheca,tamensis,CCMP826,Unknown,No,No,Willie Wilson
+STRAIN206,MMETSP0804,Chlorophyta,Prasinophyceae,Chlorodendraceae,Tetraselmis,astigmatica,CCMP880,Unknown,Unknown,No,Alexandra Z. Worden
+STRAIN207,MMETSP0902,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,antarctica,CCMP982,Yes,No,No,Thomas Mock
+STRAIN207,MMETSP0903,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,antarctica,CCMP982,Yes,No,No,Thomas Mock
+STRAIN207,MMETSP0904,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,antarctica,CCMP982,Yes,No,No,Thomas Mock
+STRAIN207,MMETSP0905,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,antarctica,CCMP982,Yes,No,No,Thomas Mock
+STRAIN208,MMETSP1060,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,pungens,cf. cingulata,Yes,No,No,E. Virginia Armbrust
+STRAIN209,MMETSP1061,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,pungens,cf. pungens,Yes,No,No,E. Virginia Armbrust
+STRAIN210,MMETSP0439,Unknown,Unknown,Stereomyxidae,Stereomyxa,ramosa,Chinc5,No,No,No,Laura Katz
+STRAIN211,MMETSP0939,Chlorophyta,Prasinophyceae,Mamiellaceae,Ostreococcus,lucimarinus,clade-A-BCC118000,Yes,Yes,No,Gwenael Piganeau
+STRAIN212,MMETSP0938,Chlorophyta,Prasinophyceae,Mamiellaceae,Ostreococcus,mediterraneus,clade-D-RCC1107,Yes,Yes,No,Gwenael Piganeau
+STRAIN213,MMETSP0930,Chlorophyta,Prasinophyceae,Mamiellaceae,Ostreococcus,mediterraneus,clade-D-RCC1621,Yes,Yes,No,Gwenael Piganeau
+STRAIN214,MMETSP0929,Chlorophyta,Prasinophyceae,Mamiellaceae,Ostreococcus,mediterraneus,clade-D-RCC2572,Yes,Yes,No,Gwenael Piganeau
+STRAIN215,MMETSP0936,Chlorophyta,Prasinophyceae,Mamiellaceae,Ostreococcus,mediterraneus,clade-D-RCC2573,Yes,Yes,No,Gwenael Piganeau
+STRAIN216,MMETSP0937,Chlorophyta,Prasinophyceae,Mamiellaceae,Ostreococcus,mediterraneus,clade-D-RCC2593,Yes,Yes,No,Gwenael Piganeau
+STRAIN217,MMETSP0932,Chlorophyta,Prasinophyceae,Mamiellaceae,Ostreococcus,mediterraneus,clade-D-RCC2596,Yes,Yes,No,Gwenael Piganeau
+STRAIN218,MMETSP1374,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,cladeA,Unknown,No,No,Ruth Gates
+STRAIN219,MMETSP0210,Ciliophora,Heterotrichea,Condylostomatidae,Condylostoma,magnum,COL2,Yes,No,No,Denis Lynn
+STRAIN220,MMETSP1393,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,sp,CS-222,Unknown,No,No,Alexandra Z. Worden
+STRAIN221,MMETSP0689_2,Dinophyta,Dinophyceae,Gymnodiniaceae,Amphidinium,massartii,CS-259,Yes,No,No,Shauna Murray
+STRAIN222,MMETSP0116_2,Dinophyta,Dinophyceae,Peridiniaceae,Durinskia,baltica,CSIRO CS-38,No,No,No,Patrick Keeling
+STRAIN222,MMETSP0117_2,Dinophyta,Dinophyceae,Peridiniaceae,Durinskia,baltica,CSIRO CS-38,No,No,No,Patrick Keeling
+STRAIN223,MMETSP1380,Ciliophora,Spirotrichea,Euplotidae,Euplotes,crassus,CT5,Unknown,No,No,Cristina Miceli
+STRAIN224,MMETSP0086_2,Unknown,Unknown,Unknown,Unknown,Unknown,D1,Yes,No,No,Brian Palenik
+STRAIN224,MMETSP0087,Unknown,Unknown,Unknown,Unknown,Unknown,D1,Yes,No,No,Brian Palenik
+STRAIN225,MMETSP1377,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,D1a,Unknown,No,No,Ruth Gates
+STRAIN226,MMETSP0797,Dinophyta,Dinophyceae,Dinophysiaceae,Dinophysis,acuminata,DAEP01,Unknown,No,No,Jeremiah Hackett
+STRAIN227,MMETSP0168,Unknown,Unknown,Vannellidae,Vannella,sp.,DIVA3 517/6/12,Yes,No,No,Jan Pawlowski
+STRAIN228,MMETSP0173_2,Unknown,Lobosa,Vexilliferidae,Vexillifera,sp.,DIVA3 564/2,Yes,No,No,Jan Pawlowski
+STRAIN229,MMETSP0942,Bicosoecida,Bicosoecophyceae,Cafeteriaceae,Cafeteria,roenbergensis,E4-10,Yes,No,No,Alastair Simpson
+STRAIN230,MMETSP0397,Bacillariophyta,Bacillariophyceae,Cyclophoraceae,Cyclophora,tenuis,ECT3854,Unknown,No,No,Matt Ashworth
+STRAIN231,MMETSP0434,Ciliophora,Spirotrichea,Ptychocylididae,Favella,taraikaensis,Fe Narragansett Bay,Yes,No,No,Susanne Menden-Deuer
+STRAIN231,MMETSP0436,Ciliophora,Spirotrichea,Ptychocylididae,Favella,taraikaensis,Fe Narragansett Bay,Yes,No,No,Susanne Menden-Deuer
+STRAIN232,MMETSP1040,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,marinoi,FE60,Yes,No,No,Giovanna Romano
+STRAIN233,MMETSP1039,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,marinoi,FE7,Yes,No,No,Giovanna Romano
+STRAIN234,MMETSP0123,Ciliophora,Spirotrichea,Ptychocylididae,Favella,ehrenbergii,Fehren 1,Yes,No,No,Denis Lynn
+STRAIN235,MMETSP0213,Ciliophora,Spirotrichea,Euplotidae,Euplotes,harpa,FSP1.4,Yes,No,No,Denis Lynn
+STRAIN236,MMETSP1059,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,sp.,FW,Yes,No,No,E. Virginia Armbrust
+STRAIN237,MMETSP0784,Dinophyta,Dinophyceae,Gymnodiniaceae,Gymnodinium,catenatum,GC744,Yes,No,No,Jeremiah Hackett
+STRAIN238,MMETSP1107,Ochrophyta,Chrysophyceae,Synuraceae,Paraphysomonas,vestita,GFlagA,Unknown,No,No,David Caron
+STRAIN239,MMETSP0492,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,gravida,GMp14c1,Yes,No,No,Tatiana Rynearson
+STRAIN239,MMETSP0493,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,gravida,GMp14c1,Yes,No,No,Tatiana Rynearson
+STRAIN239,MMETSP0494,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,gravida,GMp14c1,Yes,No,No,Tatiana Rynearson
+STRAIN240,MMETSP0372,Apicomplexa,Gregarinia,Lecudinidae,Lankesteria,abbottii,Grappler Inlet BC,No,No,Yes,Claudio Slamovits
+STRAIN241,MMETSP0160_2,Bacillariophyta,Coscinodiscophyceae,Triceratiaceae,Odontella,Sinensis,Grunow 1884,Yes,No,No,Declan Schroeder
+STRAIN242,MMETSP0419_2,Chlorophyta,Prasinophyceae,Chlorodendraceae,Tetraselmis,sp.,GSL018,Yes,Yes,No,Sarah d'Adamo
+STRAIN243,MMETSP0200_2,Bacillariophyta,Coscinodiscophyceae,Chaetocerotaceae,Chaetoceros,sp.,GSL56,Yes,Yes,No,Matthew Posewitz
+STRAIN244,MMETSP0910,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,rotula,GSO102,Yes,Yes,No,Tatiana Rynearson
+STRAIN244,MMETSP0911,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,rotula,GSO102,Yes,Yes,No,Tatiana Rynearson
+STRAIN244,MMETSP0912,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,rotula,GSO102,Yes,Yes,No,Tatiana Rynearson
+STRAIN244,MMETSP0913,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,rotula,GSO102,Yes,Yes,No,Tatiana Rynearson
+STRAIN244,MMETSP0998,Bacillariophyta,Coscinodiscophyceae,Lithodesmiaceae,Ditylum,brightwellii,GSO105,Yes,Yes,No,Tatiana Rynearson
+STRAIN244,MMETSP1001,Bacillariophyta,Coscinodiscophyceae,Lithodesmiaceae,Ditylum,brightwellii,GSO105,Yes,Yes,No,Tatiana Rynearson
+STRAIN245,MMETSP0015_2,Bacillariophyta,Coscinodiscophyceae,Triceratiaceae,Odontella,aurita,isolate 1302-5,Unknown,No,No,E. Virginia Armbrust
+STRAIN246,MMETSP0232,Ascomycota,Saccharomycetes,Saccharomycetaceae,Debaryomyces,hansenii,J26,Yes,Yes,No,Nadathur Govind
+STRAIN246,MMETSP0233,Ascomycota,Saccharomycetes,Saccharomycetaceae,Debaryomyces,hansenii,J26,Yes,Yes,No,Nadathur Govind
+STRAIN246,MMETSP0234,Ascomycota,Saccharomycetes,Saccharomycetaceae,Debaryomyces,hansenii,J26,Yes,Yes,No,Nadathur Govind
+STRAIN246,MMETSP0235,Ascomycota,Saccharomycetes,Saccharomycetaceae,Debaryomyces,hansenii,J26,Yes,Yes,No,Nadathur Govind
+STRAIN247,MMETSP0017_2,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Cylindrotheca,closterium,KMMCC:B-181,Unknown,No,No,E. Virginia Armbrust
+STRAIN248,MMETSP0906,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Fragilariopsis,kerguelensis,L2-C3,Yes,Yes,No,Thomas Mock
+STRAIN248,MMETSP0907,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Fragilariopsis,kerguelensis,L2-C3,Yes,Yes,No,Thomas Mock
+STRAIN248,MMETSP0908,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Fragilariopsis,kerguelensis,L2-C3,Yes,Yes,No,Thomas Mock
+STRAIN248,MMETSP0909,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Fragilariopsis,kerguelensis,L2-C3,Yes,Yes,No,Thomas Mock
+STRAIN249,MMETSP0156,Bacillariophyta,Fragilariophyceae,Thalassionemataceae,Thalassionema,nitzschioides,L26-B,Yes,No,No,Bank Beszteri
+STRAIN249,MMETSP0158,Bacillariophyta,Fragilariophyceae,Thalassionemataceae,Thalassionema,nitzschioides,L26-B,Yes,No,No,Bank Beszteri
+STRAIN250,MMETSP0733,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Fragilariopsis,kerguelensis,L26-C5,Yes,No,No,Adrian Marchetti
+STRAIN250,MMETSP0734,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Fragilariopsis,kerguelensis,L26-C5,Yes,No,No,Adrian Marchetti
+STRAIN250,MMETSP0735,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Fragilariopsis,kerguelensis,L26-C5,Yes,No,No,Adrian Marchetti
+STRAIN250,MMETSP0736,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Fragilariopsis,kerguelensis,L26-C5,Yes,No,No,Adrian Marchetti
+STRAIN251,MMETSP0169,Bacillariophyta,Coscinodiscophyceae,Corethraceae,Corethron,pennatum,L29A3,Yes,No,No,Bank Beszteri
+STRAIN251,MMETSP0171,Bacillariophyta,Coscinodiscophyceae,Corethraceae,Corethron,pennatum,L29A3,Yes,No,No,Bank Beszteri
+STRAIN252,MMETSP0152,Bacillariophyta,Fragilariophyceae,Thalassionemataceae,Thalassiothrix,antarctica,L6-D1,Yes,No,No,Bank Beszteri
+STRAIN252,MMETSP0154,Bacillariophyta,Fragilariophyceae,Thalassionemataceae,Thalassiothrix,antarctica,L6-D1,Yes,No,No,Bank Beszteri
+STRAIN253,MMETSP0817,Chlorophyta,Prasinophyceae,Chlorodendraceae,Tetraselmis,striata,LANL1001,Yes,No,No,Min Park
+STRAIN253,MMETSP0818,Chlorophyta,Prasinophyceae,Chlorodendraceae,Tetraselmis,striata,LANL1001,Yes,No,No,Min Park
+STRAIN253,MMETSP0819,Chlorophyta,Prasinophyceae,Chlorodendraceae,Tetraselmis,striata,LANL1001,Yes,No,No,Min Park
+STRAIN253,MMETSP0820,Chlorophyta,Prasinophyceae,Chlorodendraceae,Tetraselmis,striata,LANL1001,Yes,No,No,Min Park
+STRAIN254,MMETSP0041_2,Cercozoa,Chlorarachniophyceae,Chlorarachniaceae,Lotharella,globosa,LEX01,Yes,Yes,No,John Archibald
+STRAIN255,MMETSP0472,Ciliophora,Prostomatea,Colepidae,Tiarina,fusus,LIS,No,No,No,George McManus
+STRAIN256,MMETSP0198_2,Labyrinthista,Labyrinthulea,Thraustochytriaceae,Thraustochytrium,sp.,LLF1b,Yes,Yes,No,Eric E. Allen
+STRAIN256,MMETSP0199_2,Labyrinthista,Labyrinthulea,Thraustochytriaceae,Thraustochytrium,sp.,LLF1b,Yes,Yes,No,Eric E. Allen
+STRAIN257,MMETSP0114,Cryptophyta,Cryptophyceae,Goniomonodaceae,Goniomonas,sp,m,Yes,No,No,Eunsoo Kim
+STRAIN258,MMETSP0149,Bacillariophyta,Coscinodiscophyceae,Chaetocerotaceae,Chaetoceros,debilis,MM31A-1,Yes,No,No,Bank Beszteri
+STRAIN258,MMETSP0150,Bacillariophyta,Coscinodiscophyceae,Chaetocerotaceae,Chaetoceros,debilis,MM31A-1,Yes,No,No,Bank Beszteri
+STRAIN259,MMETSP1122,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,Mp,No,No,No,Willie Wilson
+STRAIN259,MMETSP1123,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,Mp,No,No,No,Willie Wilson
+STRAIN259,MMETSP1124,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,Mp,No,No,No,Willie Wilson
+STRAIN259,MMETSP1125,Dinophyta,Dinophyceae,Symbiodiniaceae,Symbiodinium,sp.,Mp,No,No,No,Willie Wilson
+STRAIN260,MMETSP0414,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,NB,Yes,No,No,Susanne Menden-Deuer
+STRAIN260,MMETSP0415,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,NB,Yes,No,No,Susanne Menden-Deuer
+STRAIN260,MMETSP0416,Ochrophyta,Raphidophyceae,Chattonellaceae,Heterosigma,akashiwo,NB,Yes,No,No,Susanne Menden-Deuer
+STRAIN261,MMETSP0413,Unknown,Lobosa,Echinamoebidae,Filamoeba,nolandi,NC-AS-23-1,No,No,No,Laura Katz
+STRAIN262,MMETSP1082,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,sp.,NEPCC29,Unknown,No,No,Alexandra Z. Worden
+STRAIN262,MMETSP1386,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,sp.,NEPCC29,Unknown,No,No,Alexandra Z. Worden
+STRAIN263,MMETSP1070,Bacillariophyta,Coscinodiscophyceae,Cymatosiraceae,Minutocellus,polymorphus,NH13,Yes,No,No,E. Virginia Armbrust
+STRAIN264,MMETSP1071,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,sp.,NH16,Yes,No,No,E. Virginia Armbrust
+STRAIN265,MMETSP0780_2,Unknown,Unknown,Unknown,Palpitomonas,bilix,NIES-2562,Unknown,No,No,John Archibald
+STRAIN266,MMETSP0039_2,Euglenozoa,Euglenida,Eutreptiaceae,Eutreptiella,gymnastica,NIES-381,Unknown,Yes,No,John Archibald
+STRAIN267,MMETSP0790,Dinophyta,Dinophyceae,Goniodomataceae,Alexandrium,catenella,OF101,Yes,Unknown,No,Jeremiah Hackett
+STRAIN268,MMETSP0211,Ciliophora,Spirotrichea,Pseudokeronopsidae,Pseudokeronopsis,sp.,OXSARD2,Yes,No,No,Denis Lynn
+STRAIN269,MMETSP0209,Ciliophora,Litostomatea,Litonotidae,Litonotus,pictus,P1,Yes,No,No,Denis Lynn
+STRAIN270,MMETSP1074,Dinophyta,Dinophyceae,Ceratiaceae,Ceratium,fusus,PA161109,Yes,No,No,Susanne Menden-Deuer
+STRAIN270,MMETSP1075,Dinophyta,Dinophyceae,Ceratiaceae,Ceratium,fusus,PA161109,Yes,No,No,Susanne Menden-Deuer
+STRAIN271,MMETSP0103,Ochrophyta,Chrysophyceae,Synuraceae,Paraphysomonas,Imperforata,PA2,Yes,No,No,Brian Palenik
+STRAIN271,MMETSP0104,Ochrophyta,Chrysophyceae,Synuraceae,Paraphysomonas,Imperforata,PA2,Yes,No,No,Brian Palenik
+STRAIN272,MMETSP0370,Dinophyta,Dinophyceae,Peridiniaceae,Peridinium,aciculiferum,PAER-2,Yes,No,No,Karin Rengefors
+STRAIN272,MMETSP0371,Dinophyta,Dinophyceae,Peridiniaceae,Peridinium,aciculiferum,PAER-2,Yes,No,No,Karin Rengefors
+STRAIN273,MMETSP0796,Dinophyta,Dinophyceae,Gonyaulacaceae,Pyrodinium,bahamense,pbaha01,Yes,No,No,Jeremiah Hackett
+STRAIN274,MMETSP0954,Labyrinthista,Labyrinthulea,Thraustochytriaceae,Aplanochytrium,sp,PBS07,Yes,Yes,No,Jackie Collier
+STRAIN274,MMETSP0955,Labyrinthista,Labyrinthulea,Thraustochytriaceae,Aplanochytrium,sp,PBS07,Yes,Yes,No,Jackie Collier
+STRAIN274,MMETSP0956,Labyrinthista,Labyrinthulea,Thraustochytriaceae,Aplanochytrium,sp,PBS07,Yes,Yes,No,Jackie Collier
+STRAIN274,MMETSP0957,Labyrinthista,Labyrinthulea,Thraustochytriaceae,Aplanochytrium,sp,PBS07,Yes,Yes,No,Jackie Collier
+STRAIN275,MMETSP1356,Cryptophyta,Cryptophyceae,Hemiselmidaceae,Hemiselmis,viresens,PCC157,Unknown,No,No,John Archibald
+STRAIN275,MMETSP1357,Cryptophyta,Cryptophyceae,Hemiselmidaceae,Hemiselmis,rufescens,PCC563,Unknown,Unknown,No,John Archibald
+STRAIN276,MMETSP0174,Bacillariophyta,Coscinodiscophyceae,Rhizosoleniaceae,Proboscia,alata,PI-D3,Yes,No,No,Bank Beszteri
+STRAIN276,MMETSP0176,Bacillariophyta,Coscinodiscophyceae,Rhizosoleniaceae,Proboscia,alata,PI-D3,Yes,No,No,Bank Beszteri
+STRAIN277,MMETSP1150,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,PLY M219,Unknown,No,No,Francois Morel
+STRAIN277,MMETSP1151,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,PLY M219,Unknown,No,No,Francois Morel
+STRAIN277,MMETSP1152,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,PLY M219,Unknown,No,No,Francois Morel
+STRAIN277,MMETSP1153,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Emiliania,huxleyi,PLY M219,Unknown,No,No,Francois Morel
+STRAIN278,MMETSP0164_2,Haptophyta,Prymnesiophyceae,Coccolithaceae,Coccolithus,pelagicus ssp braarudi,PLY182g,Yes,No,No,Glen Wheeler
+STRAIN279,MMETSP0491_2,Chlorophyta,Prasinophyceae,Chlorodendraceae,Tetraselmis,chuii,PLY429,Unknown,No,No,George McManus
+STRAIN280,MMETSP1062,Bacillariophyta,Coscinodiscophyceae,Lithodesmiaceae,Ditylum,brightwellii,Pop1 (SS4),Yes,No,No,E. Virginia Armbrust
+STRAIN281,MMETSP1063,Bacillariophyta,Coscinodiscophyceae,Lithodesmiaceae,Ditylum,brightwellii,Pop2 (SS10),Yes,No,No,E. Virginia Armbrust
+STRAIN282,MMETSP0101,Ochrophyta,Dictyochophyceae,Pedinellaceae,Pteridomonas,danica,PT,Yes,No,No,Brian Palenik
+STRAIN282,MMETSP0102,Ochrophyta,Dictyochophyceae,Pedinellaceae,Pteridomonas,danica,PT,Yes,No,No,Brian Palenik
+STRAIN283,MMETSP0449_2,Ciliophora,Spirotrichea,Strombidiidae,Strombidium,rassoulzadegani,ras09,No,No,No,George McManus
+STRAIN284,MMETSP1329,Ochrophyta,Pelagophyceae,,Genus nov.,species nov.,RCC1024,No,No,No,Daniel Vaulot
+STRAIN285,MMETSP1334,Haptophyta,Prymnesiophyceae,Calcidiscaceae,Calcidiscus,leptoporus,RCC1130,No,No,No,Daniel Vaulot
+STRAIN286,MMETSP1363,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Gephyrocapsa,oceanica,RCC1303,Unknown,No,No,Sonya Dyhrman and Andrew Juhl
+STRAIN286,MMETSP1364,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Gephyrocapsa,oceanica,RCC1303,Unknown,No,No,Sonya Dyhrman and Andrew Juhl
+STRAIN286,MMETSP1365,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Gephyrocapsa,oceanica,RCC1303,Unknown,No,No,Sonya Dyhrman and Andrew Juhl
+STRAIN286,MMETSP1366,Haptophyta,Prymnesiophyceae,Noelaerhabdaceae,Gephyrocapsa,oceanica,RCC1303,Unknown,No,No,Sonya Dyhrman and Andrew Juhl
+STRAIN287,MMETSP1465,Haptophyta,Prymnesiophyceae,Phaeocystaceae,Phaeocystis,cordata,RCC1383,Yes,Unknown,No,Mike Preston
+STRAIN288,MMETSP1333,Haptophyta,Coccolithophyceae,Pontosphaeraceae,Scyphosphaera,apsteinii,RCC1455,No,No,No,Daniel Vaulot
+STRAIN289,MMETSP1335,Haptophyta,Prymnesiophyceae,Prymnesiaceae,Chrysoculter,rhomboideus,RCC1486,No,Unknown,No,Daniel Vaulot
+STRAIN290,MMETSP1338,Dinophyta,Dinophyceae,Suessiaceae,Pelagodinium,beii,RCC1491,No,No,No,Willie Wilson
+STRAIN291,MMETSP1324,Ochrophyta,Dictyochophyceae,Florenciellales,Florenciella,sp.,RCC1587,No,No,No,Daniel Vaulot
+STRAIN292,MMETSP1402,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,pusilla,RCC1614,No,No,No,Alexandra Z. Worden
+STRAIN293,MMETSP1321,Ochrophyta,Bolidophyceae,Bolidomonoadaceae,Bolidomonas,sp.,RCC1657,No,No,No,Daniel Vaulot
+STRAIN294,MMETSP1323,Ochrophyta,Dictyochophyceae,Florenciellales,Florenciella,parvula,RCC1693,No,No,No,Daniel Vaulot
+STRAIN295,MMETSP1456,,,,Unidentified,sp.,RCC1871,Yes,No,No,Mike Preston
+STRAIN296,MMETSP1336,Bacillariophyta,Bacillariophyceae,Chaetocerotaceae,Chaetoceros,cf. neogracile,RCC1993,No,No,No,Daniel Vaulot
+STRAIN297,MMETSP1319,Ochrophyta,Bolidophyceae,Bolidomonadaceae,Bolidomonas,pacifica,RCC208,No,No,No,Daniel Vaulot
+STRAIN298,MMETSP1322,Bacillariophyta,Coscinodiscophyceae,Cymatosiraceae,Minutocellus,polymorphus,RCC2270,No,No,No,Daniel Vaulot
+STRAIN299,MMETSP1326,Chlorophyta,Mamiellophyceae,Mamiellaceae,Genus nov.,species nov.,RCC2288,No,No,No,Willie Wilson
+STRAIN300,MMETSP1327,Chlorophyta,Mamiellophyceae,Mamiellaceae,Micromonas,pusilla,RCC2306,No,Unknown,No,Daniel Vaulot
+STRAIN301,MMETSP1312,,,,Genus nov.,species nov.,RCC2335,No,No,No,Daniel Vaulot
+STRAIN302,MMETSP1316,Chlorophyta,Prasinophyceae,Pycnococcaceae,Pycnococcus,provasolii,RCC2336,No,Unknown,No,Daniel Vaulot
+STRAIN303,MMETSP1310,,,,Genus nov.,species nov.,RCC2339,No,No,No,Daniel Vaulot
+STRAIN304,MMETSP1320,Ochrophyta,Bolidophyceae,Bolidomonoadaceae,Bolidomonas,sp.,RCC2347,No,No,No,Willie Wilson
+STRAIN305,MMETSP1462,Alveolata,Dinophyceae,Peridiniaceae,Brandtodinium,nutriculum,RCC3387,Yes,No,No,Mike Preston
+STRAIN306,MMETSP1318,Cercozoa,Chlorarachnea,Chlorarachniaceae,Partenskyella,glossopodia,RCC365,No,No,No,Willie Wilson
+STRAIN307,MMETSP1400,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,sp.,RCC451,No,No,No,Alexandra Z. Worden
+STRAIN308,MMETSP1084,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,sp.,RCC472,Unknown,No,No,Alexandra Z. Worden
+STRAIN308,MMETSP1387,Chlorophyta,Prasinophyceae,Mamiellaceae,Micromonas,sp.,RCC472,Unknown,No,No,Alexandra Z. Worden
+STRAIN309,MMETSP1453,,,,Unidentified,sp.,RCC701,Yes,No,No,Mike Preston
+STRAIN310,MMETSP1460,Chlorophyta,Mamiellophyceae,Bathycoccaceae,Bathycoccus,prasinos,RCC716,Yes,No,No,Mike Preston
+STRAIN311,MMETSP1471,Chlorophyta,Prasinophyceae,Pycnococcaceae,Pycnococcus,provasolii,RCC733,Yes,Unknown,No,Mike Preston
+STRAIN312,MMETSP0014_2,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Nitzschia,sp.,RCC80,Unknown,No,No,E. Virginia Armbrust
+STRAIN313,MMETSP1311,,,,Genus nov.,species nov.,RCC856,No,No,No,Willie Wilson
+STRAIN314,MMETSP1315,Chlorophyta,Prasinophyceae,Pycnococcaceae,Prasinoderma,singularis,RCC927,No,No,No,Daniel Vaulot
+STRAIN315,MMETSP1330,Chlorophyta,Trebouxiophyceae,Trebouxiophyceae incertae sedis,Picochlorum,sp.,RCC944,No,No,No,Daniel Vaulot
+STRAIN316,MMETSP1328,Ochrophyta,Pelagophyceae,Pelagomonadaceae,Pelagomonas,calceolata,RCC969,No,No,No,Daniel Vaulot
+STRAIN317,MMETSP1309,,,,Genus nov.,species nov.,RCC998,No,No,No,Willie Wilson
+STRAIN318,MMETSP0484_2,Cryptophyta,Cryptophyceae,Pyrenomonadaceae,Rhodomonas,lens,RHODO,Unknown,No,No,George McManus
+STRAIN319,MMETSP0208,Ciliophora,Spirotrichea,Strombidiidae,Strombidium,inclinatum,S3,Yes,No,No,Denis Lynn
+STRAIN320,MMETSP1392,Chlorophyta,Chlorophyceae,Chlamydomonadaceae,Chlamydomonas,chlamydogama,SAG 11-48b,Unknown,No,No,Alexandra Z. Worden
+STRAIN321,MMETSP1391,Chlorophyta,Chlorophyceae,Chlamydomonadaceae,Chlamydomonas,leiostraca,SAG 11-49,Unknown,No,No,Alexandra Z. Worden
+STRAIN322,MMETSP0313,Rhodophyta,Rhodellophyceae,Porphyridiaceae,Porphyridium,aerugineum,SAG 1380-2,Unknown,Yes,No,Patrick Keeling
+STRAIN323,MMETSP0312,Rhodophyta,Compsopogonophyceae,Compsopogonaceae,Compsopogon,coeruleus,SAG 36.94,Unknown,No,No,Patrick Keeling
+STRAIN324,MMETSP0308,Glaucophyta,Glaucophyceae,Gloeochaetaceae,Gloeochaete,witrockiana,SAG 46.84,Unknown,No,No,Patrick Keeling
+STRAIN325,MMETSP0052_2,Chlorophyta,Chlorophyceae,Chlamydomonadaceae,Polytomella,parva,SAG 63-3,Yes,Yes,No,David Smith
+STRAIN326,MMETSP1086,Glaucophyta,Glaucocystophyceae,Glaucosphaeraceae,Cyanoptyche,gloeocystis,SAG4.97,Unknown,No,No,Alexandra Z. Worden
+STRAIN327,MMETSP1089,Glaucophyta,Glaucophyceae,Gloeochaetaceae,Gloeochaete,wittrockiana,SAG46.84,Unknown,No,No,Alexandra Z. Worden
+STRAIN328,MMETSP0503,Dinophyta,Dinophyceae,Heterocapsaceae,Heterocapsa,rotundata,SCCAP K-0483,No,No,No,George McManus
+STRAIN329,MMETSP0323_2,Dinophyta,Dinophyceae,Crypthecodiniacea,Crypthecodinium,cohnii,Seligo,Yes,Yes,No,Philippe Deschamps
+STRAIN329,MMETSP0324_2,Dinophyta,Dinophyceae,Crypthecodiniacea,Crypthecodinium,cohnii,Seligo,Yes,Yes,No,Philippe Deschamps
+STRAIN329,MMETSP0325_2,Dinophyta,Dinophyceae,Crypthecodiniacea,Crypthecodinium,cohnii,Seligo,Yes,Yes,No,Philippe Deschamps
+STRAIN329,MMETSP0326_2,Dinophyta,Dinophyceae,Crypthecodiniacea,Crypthecodinium,cohnii,Seligo,Yes,Yes,No,Philippe Deschamps
+STRAIN330,MMETSP0367,Dinophyta,Dinophyceae,Peridiniaceae,Scrippsiella,hangoei-like,SHHI-4,Yes,No,No,Karin Rengefors
+STRAIN330,MMETSP0368,Dinophyta,Dinophyceae,Peridiniaceae,Scrippsiella,hangoei-like,SHHI-4,Yes,No,No,Karin Rengefors
+STRAIN330,MMETSP0369,Dinophyta,Dinophyceae,Peridiniaceae,Scrippsiella,hangoei-like,SHHI-4,Yes,No,No,Karin Rengefors
+STRAIN331,MMETSP0918,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,marinoi,skelA,Yes,No,No,Tatiana Rynearson
+STRAIN331,MMETSP0920,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,marinoi,skelA,Yes,No,No,Tatiana Rynearson
+STRAIN332,MMETSP0562,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,dohrnii,SkelB,Yes,No,No,Tatiana Rynearson
+STRAIN332,MMETSP0563,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,dohrnii,SkelB,Yes,No,No,Tatiana Rynearson
+STRAIN333,MMETSP1106,Chlorophyta,Mamiellophyceae,Mamiellaceae,Mantoniella,antarctica,SL-175,Unknown,Unknown,No,David Caron
+STRAIN334,MMETSP0320,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,marinoi,SM1012Den-03,Yes,No,No,Satoshi Nagai
+STRAIN335,MMETSP0319,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,marinoi,SM1012Hels-07,Yes,No,No,Satoshi Nagai
+STRAIN336,MMETSP0161_2,Unknown,Lobosa,Vexilliferidae,Neoparamoeba,aestuarina,SoJaBio B1-5/56/2,Yes,No,No,Jan Pawlowski
+STRAIN337,MMETSP0463,Ciliophora,Spirotrichea,Strombidinopsidae,Strombidinopsis,sp,SopsisLIS2011,Unknown,No,No,George McManus
+STRAIN338,MMETSP0573,Dinophyta,Dinophyceae,Gymnodiniaceae,Karenia,brevis,SP1,Yes,No,No,Lisa Campbell
+STRAIN338,MMETSP0574,Dinophyta,Dinophyceae,Gymnodiniaceae,Karenia,brevis,SP1,Yes,No,No,Lisa Campbell
+STRAIN339,MMETSP0527_2,Dinophyta,Dinophyceae,Gymnodiniaceae,Karenia,brevis,SP3,Yes,No,No,Lisa Campbell
+STRAIN339,MMETSP0528_2,Dinophyta,Dinophyceae,Gymnodiniaceae,Karenia,brevis,SP3,Yes,No,No,Lisa Campbell
+STRAIN340,MMETSP1148,Dinophyta,Dinophyceae,Gymnodiniaceae,Gyrodinium,dominans,SPMC 103,No,No,Yes,Juan Saldarriaga
+STRAIN341,MMETSP1147,Dinophyta,Dinophyceae,Lessardiaceae,Lessardia,elongata,SPMC 104,Unknown,No,Yes,Juan Saldarriaga
+STRAIN342,MMETSP0467,Ciliophora,Litostomatea,Mesodiniidae,Mesodinium,pulex,SPMC105,Unknown,No,No,George McManus
+STRAIN343,MMETSP0126,Ciliophora,Spirotrichea,Strombidinopsidae,Strombidinopsis,acuminatum,SPMC142,Yes,No,No,Denis Lynn
+STRAIN344,MMETSP1395,Ciliophora,Heterotrichea,Blepharismidae,Blepharisma,japonicum,Stock R1072,Unknown,No,No,Giulio Petroni
+STRAIN345,MMETSP0006_2,Haptophyta,Prymnesiophyceae,Prymenesiaceae,Prymnesium,parvum,Texoma1,Yes,Yes,No,David Caron
+STRAIN345,MMETSP0007,Haptophyta,Prymnesiophyceae,Prymenesiaceae,Prymnesium,parvum,Texoma1,Yes,Yes,No,David Caron
+STRAIN345,MMETSP0008_2,Haptophyta,Prymnesiophyceae,Prymenesiaceae,Prymnesium,parvum,Texoma1,Yes,Yes,No,David Caron
+STRAIN345,MMETSP0814,Haptophyta,Prymnesiophyceae,Prymenesiaceae,Prymnesium,parvum,Texoma1,Yes,Yes,No,David Caron
+STRAIN345,MMETSP0815,Haptophyta,Prymnesiophyceae,Prymenesiaceae,Prymnesium,parvum,Texoma1,Yes,Yes,No,David Caron
+STRAIN346,MMETSP1067,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Thalassiosira,punctigera,Tpunct2005C2,Yes,No,No,E. Virginia Armbrust
+STRAIN347,MMETSP0286,Haptophyta,Prymnesiophyceae,Prymnesiaceae,Chrysochromulina,polylepis,UIO037,Yes,Yes,No,Bente Edvardsen
+STRAIN348,MMETSP0287,Haptophyta,Prymnesiophyceae,Prymnesiaceae,Chrysochromulina,rotalis,UIO044,No,No,No,Bente Edvardsen
+STRAIN349,MMETSP1423,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,heimii,UNC1101,Unknown,No,No,E. Virginia Armbrust
+STRAIN350,MMETSP1428,Bacillariophyta,Coscinodiscophyceae,Skeletonemaceae,Skeletonema,marinoi,UNC1201,Unknown,No,No,Adrian Marchetti
+STRAIN351,MMETSP1429,Bacillariophyta,Coscinodiscophyceae,Chaetocerotaceae,Chaetoceros,sp.,UNC1202,Unknown,No,No,Adrian Marchetti
+STRAIN352,MMETSP1432,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,delicatissima,UNC1205,Unknown,No,No,Adrian Marchetti
+STRAIN353,MMETSP1317,,,,Undescribed,Undescribed,Undescribed,No,No,No,Denis Lynn
+STRAIN354,MMETSP0315,Rhodophyta,Rhodellophyceae,Stylonemataceae,Rhodosorus,marinus,UTEX LB 2760,Unknown,No,No,Patrick Keeling
+STRAIN355,MMETSP1094,Haptophyta,Prymnesiophyceae,Prymnesiaceae,Chrysochromulina,brevifilum,UTEX LB 985,Unknown,No,No,David Caron
+STRAIN356,MMETSP0019_2,Ochrophyta,Synurophyceae,Dinobryaceae,Dinobryon,sp.,UTEXLB2267,Unknown,No,No,David Caron
+STRAIN356,MMETSP0020_2,Ochrophyta,Synurophyceae,Dinobryaceae,Dinobryon,sp.,UTEXLB2267,Unknown,No,No,David Caron
+STRAIN356,MMETSP0812,Ochrophyta,Synurophyceae,Dinobryaceae,Dinobryon,sp.,UTEXLB2267,Unknown,No,No,David Caron
+STRAIN357,MMETSP1095,Ochrophyta,Chrysophyceae,Chromulinaceae,Chromulina,nebulosa,UTEXLB2642,Unknown,No,No,David Caron
+STRAIN358,MMETSP0127,Ciliophora,Colopdea,Platyophryidae,Platyophrya,macrostoma,WH,Unknown,No,No,Denis Lynn
+STRAIN359,MMETSP0201,Dinophyta,Dinophyceae,Gymnodiniaceae,Karenia,brevis,Wilson,Unknown,No,No,Frances Van Dolah
+STRAIN359,MMETSP0202,Dinophyta,Dinophyceae,Gymnodiniaceae,Karenia,brevis,Wilson,Unknown,No,No,Frances Van Dolah
+STRAIN359,MMETSP0648_2,Dinophyta,Dinophyceae,Gymnodiniaceae,Karenia,brevis,Wilson,Yes,No,No,Lisa Campbell
+STRAIN359,MMETSP0649_2,Dinophyta,Dinophyceae,Gymnodiniaceae,Karenia,brevis,Wilson,Yes,No,No,Lisa Campbell
+STRAIN360,MMETSP0759,Unknown,Unknown,Unknown,Percolomonas,cosmopolitus,WS,Unknown,No,No,Alastair Simpson
+STRAIN361,MMETSP0850,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,fraudulenta,WWA7,Yes,No,No,Bethany Jenkins
+STRAIN361,MMETSP0851,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,fraudulenta,WWA7,Yes,No,No,Bethany Jenkins
+STRAIN361,MMETSP0852,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,fraudulenta,WWA7,Yes,No,No,Bethany Jenkins
+STRAIN361,MMETSP0853,Bacillariophyta,Bacillariophyceae,Bacillariaceae,Pseudo-nitzschia,fraudulenta,WWA7,Yes,No,No,Bethany Jenkins
+STRAIN362,MMETSP0186,Cercozoa,Haplosporea,Haplosporidiidae,Minchinia,chitonis,,Unknown,Unknown,Yes,Claudio Slamovits
+STRAIN363,MMETSP0190_2,Foraminifera,Rotaliida,Rosalinidae,Rosalina,sp.,,Yes,No,No,Jan Pawlowski
+STRAIN364,MMETSP0191,Foraminifera,Polythalamea,Soritidae,Sorites,sp.,,No,No,No,Jan Pawlowski
+STRAIN365,MMETSP0253,Dinophyta,Dinophyceae,Noctilucaceae,Noctiluca,scintillans,,No,No,Yes,Juan Saldarriaga
+STRAIN366,MMETSP0420,Unknown,Lobosa,Vannellidae,Pessonella,sp.,,No,No,No,Laura Katz
+STRAIN367,MMETSP0437,Unknown,Lobosa,Difflugiidae,Sexangularia,sp.,,No,No,No,Laura Katz
+STRAIN368,MMETSP0580,Bacillariophyta,Coscinodiscophyceae,Rhizosoleniaceae,Dactyliosolen,fragilissimus,,Yes,Yes,No,Robert Olson
+STRAIN369,MMETSP0713,Bacillariophyta,Fragilariophyceae,Fragilariaceae,Asterionellopsis,glacialis,,Yes,Yes,No,Robert Olson
+STRAIN370,MMETSP1345,Ciliophora,Heterotrichea,Climacostomidae,Fabrea,Fabrea salina,,No,No,No,Giulio Petroni
+STRAIN371,MMETSP1384,Foraminifera,Globothalamea,Rotaliidae,Ammonia,sp.,,No,No,No,Jan Pawlowski
+STRAIN372,MMETSP1385,Foraminifera,Globothalamea,Elphidiidae,Elphidium,margaritaceum,,No,No,No,Jan Pawlowski
