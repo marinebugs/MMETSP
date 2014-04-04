@@ -54,7 +54,8 @@ AK=`grep "^ACCESS_KEY=" $config_file | cut -f2 -d"="`
 SK=`grep "^SECRET_KEY=" $config_file | cut -f2 -d"="`
 INSTANCE=`grep "^INSTANCE=" $config_file | cut -f2 -d"="`
 MAXPRICE=`grep "^MAXPRICE=" $config_file | cut -f2 -d"="`
-# Hard-coded parameters for AWS AMI and S3 repository (where RNAseq.sh is available)
+S3DATA=`grep "S3DATA=" $config_file | cut -f2 -d"="`
+# Hard-coded parameters for AWS AMI and S3 code repository (where RNAseq.sh is available)
 AMI="ami-d58e70a2"
 code_bucket="s3://mmetsp/code"
 # Upload MMETSP list file to S3 code bucket
@@ -79,6 +80,7 @@ else
 fi
 
 # Pass environment variables
+printf "export INSTANCE=$INSTANCE \n" >> ${data_id}_${now}_data-user.sh
 printf "export DATA_ID=$data_id \n" >> ${data_id}_${now}_data-user.sh
 printf "export DATA_TYPE=$data_type \n" >> ${data_id}_${now}_data-user.sh
 printf "export CODE_BUCKET=$code_bucket \n" >> ${data_id}_${now}_data-user.sh
