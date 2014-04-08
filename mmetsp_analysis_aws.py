@@ -18,11 +18,11 @@ from ftplib import FTP
 #M_ID = 'MMETSP0004' 
 # MMETSP_ID, will need a split if "_" found
 # .split('.')[0]
-APPS_DIR = '/home/ubuntu'
+APPS_DIR = '/home/ubuntu/apps'
 ADAPT = '/home/ubuntu/apps/Trimmomatic-0.32/adapters/TruSeq3-PE-2.fa'
 #AWS_EPH = '/mnt/data1' # instance ephemeral mount
 TMP_DIR = '/home/ubuntu/tmp'
-MEM_TOT = '1G'
+MEM_TOT = '6'  
 CPU_TOT = '2'
 
 class cd:
@@ -177,11 +177,11 @@ def main(argv):
 		for filename in glob.glob('*.fastq.gz'): # rename fq files and gunzip
 			if filename[-10] == '1':
 				os.rename(filename,'reads/' + M_ID + '.ncgr.pe1.fq.gz') # rename file
-				subprocess.call('gunzip reads/' + M_ID + '.ncgr.pe1.fq.gz', shell=True) # unzip fq
+				subprocess.call('gunzip -f reads/' + M_ID + '.ncgr.pe1.fq.gz', shell=True) # unzip fq
 				ncgr_fq1 = M_ID + '.ncgr.pe1.fq' # assign vairable name to ncgr fq file
 			elif filename[-10] == '2':
 				os.rename(filename,'reads/' + M_ID + '.ncgr.pe2.fq.gz')
-				subprocess.call('gunzip reads/' + M_ID + '.ncgr.pe2.fq.gz', shell=True) 
+				subprocess.call('gunzip -f reads/' + M_ID + '.ncgr.pe2.fq.gz', shell=True) 
 				ncgr_fq2 = M_ID + '.ncgr.pe2.fq'
 			else: # in case fq is absent or bad name
 				print 'Error in main(): bad file names in renaiming NCGR fq files'
@@ -196,11 +196,11 @@ def main(argv):
 			subprocess.call('interleave-reads.py -o {0}.ncgr.pe.fq {0}.ncgr.pe1.fq {0}.ncgr.pe2.fq'\
 			.format(M_ID), shell=True) # Interleave ncgr reads because of subsequent fastQC
 			
-			callDigiNorm(M_ID + '.trim.pe.fq','20','20','4','2e9') # DigiNorm on clean PE single fq file
+			callDigiNorm(M_ID + '.trim.pe.fq','20','20','4',str(float(MEM_TOT)/4) + 'e9') # DigiNorm on clean PE single fq file
 			os.rename(M_ID + '.trim.pe.fq.keep', M_ID + '.trim.diginorm.pe.fq') # rename DigiNorm fq output
 			ncgr_fq_dn = 'reads/{}.trim.diginorm.pe.fq'.format(M_ID)
 			
-		callDeconseq(ncgr_fq_dn,M_ID,'test','deconseq/') # Deconseq on DigiNorm clean fq
+		callDeconseq(ncgr_fq_dn,M_ID,'plast','deconseq/') # Deconseq on DigiNorm clean fq
 		os.rename('deconseq/' + M_ID + '.trim.pe.diginorm.deconseq_clean.fq','reads/' \
 		+ M_ID + '.trim.diginorm.deconseq.pe.fq') # move deconseq fq output to reads folder
 		os.rename('deconseq/' + M_ID + '.trim.pe.diginorm.deconseq_cont.fq','deconseq/' \
@@ -212,7 +212,7 @@ def main(argv):
 			readlist= ['ncgr','trim','trim.diginorm','trim.diginorm.deconseq']
 			for readtype in readlist:
 				callFastQC('{}.{}.pe.fq'.format(M_ID,readtype),'../stats/' + readtype)
-				fancyPlots('{}.{}.pe.fq'.format(M_ID,readtype),'../stats/' + readtype)
+				#fancyPlots('{}.{}.pe.fq'.format(M_ID,readtype),'../stats/' + readtype)
 			subprocess.call('split-paired-reads.py '+ M_ID + '.trim.diginorm.deconseq.pe.fq',\
 			shell=True) # split paired fq before Trinity, then rename files:
 			os.rename(M_ID + '.trim.diginorm.deconseq.pe.fq.1',M_ID + '.trim.diginorm.deconseq.pe1.fq')
