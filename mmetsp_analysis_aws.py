@@ -12,6 +12,7 @@
 #python_version	:Python 2.7.6, Anaconda 1.9.1 (x86_64)
 #===============================================================================
 
+# symbolic links: deconseq.pl, Trinity.pl, interleave, split, run_RSEM_align_n_estimate.pl, pick_isoform_trinity_RSEM.py
 import os, sys, glob, subprocess, getopt
 from ftplib import FTP
 
@@ -136,13 +137,19 @@ def callTrinityAssembler(pe1,pe2,mem,cpu,out):
 	subprocess.call('Trinity.pl --full_cleanup --seqType fq --SS_lib_type RF --left {0} --right {1} \
 	--JM {2} --CPU {3} --output {4}'.format(pe1,pe2,mem,cpu,out), shell=True)
 
-# def assemblyReduction():ll
-
-	#"""docstring"""
-
+def assemblyReduction(id,contig,petrim1,petrim2,cpu,outdir):
+	"""docstring"""
+	subprocess.call('.run_RSEM_align_n_estimate.pl --transcripts {0} --seqType fq --left {1}\
+	 --right {2} --thread_count {3} --output_dir {4}'.format(contig,petrim1,petrim2,cpu,outdir)
+	subprocess.call('pick_isoform_trinity_RSEM.py {0}/RSEM.isoforms.results {0}/{1}').format(outdir,contig)
+	os.rename('{0}/{1}.trinity.contig.nt.fa.exemplar'.format(outdir,id),'{0}/{1}.trinity.pickH.contig.nt.fa'.format(outdir,id))
+	subprocess.call('cap3 Trinity.fasta.exemplar -o 200 -p 99')
+	os.rename('{0}/{1}.trinity.pickH.contig.nt.fa.cap.contigs'.format(outdir,id),'{0}/{1}.trinity.pickH.cap3.contig.nt.fa'.format(outdir,id))
+	subprocess.call('cd-hit-est -i {0}/{1}.trinity.pickH.cap3.contig.nt.fa -o {0}/{1}.trinity.pickH.cap3.cdhit.contig.nt.fa -c 0.99'.format(outdir,id))
+	
 # def chimeraCheck():
 	#"""docstring"""
-
+	
 # def assemblyStat():
 	#"""docstring"""
 	
@@ -150,7 +157,10 @@ def callTrinityAssembler(pe1,pe2,mem,cpu,out):
 
 # buildResultLog()
 
-
+def cleanUp():
+	"""docstring"""
+	
+	
 def main(argv):
 	try:
 		opts, args = getopt.getopt(argv,"hi:",["mmetsp="])
@@ -217,7 +227,8 @@ def main(argv):
 			shell=True) # split paired fq before Trinity, then rename files:
 			os.rename(M_ID + '.trim.diginorm.deconseq.pe.fq.1',M_ID + '.trim.diginorm.deconseq.pe1.fq')
 			os.rename(M_ID + '.trim.diginorm.deconseq.pe.fq.2',M_ID + '.trim.diginorm.deconseq.pe2.fq')
-			callTrinityAssembler(M_ID + '.trim.diginorm.deconseq.pe1.fq',M_ID + '.trim.diginorm.deconseq.pe2.fq',MEM_TOT + 'G',CPU_TOT,TMP_DIR + '/' + M_ID + '/assemblies/' + M_ID)	
+			callTrinityAssembler(M_ID + '.trim.diginorm.deconseq.pe1.fq',M_ID + '.trim.diginorm.deconseq.pe2.fq',\
+			MEM_TOT + 'G',CPU_TOT,TMP_DIR + '/' + M_ID + '/assemblies/' + M_ID)	
 			os.rename('../assemblies/' + M_ID + '.Trinity.fasta','../assemblies/' + M_ID + '.trinity.contig.nt.fa') 			
 			
 			
