@@ -102,9 +102,8 @@ def callDigiNorm(pe,Cval,kval,Nval,xval):
 def callDeconseq(pe,id,dbs,outdir):
 	"""docstring"""
 	print 120*'#'+'\n'+25*' '+'Deconseq on ' + pe + '\n' + 120*'#'
-	subprocess.call('perl {0}/deconseq-standalone-0.4.3/deconseq.pl -f {1} -id \
-	{2}.trim.pe.diginorm.deconseq -keep_tmp_files\
-	-dbs {3} -out_dir {4}'.format(APPS_DIR,pe,id,dbs,outdir), shell=True)
+	subprocess.call('deconseq.pl -f {0} -id {1}.trim.pe.diginorm.deconseq -keep_tmp_files\
+	-dbs {2} -out_dir {3} 2>/dev/null'.format(pe,id,dbs,outdir), shell=True)
 	
 def fancyPlots(pe,outdir):
 	"""docstring"""
@@ -130,11 +129,12 @@ def callFastQC(pe,outdir):
 	subprocess.call('fastqc {0} -o {1}'.format(pe,outdir), shell=True)
 	
 	
-def callTrinityAssembler(pe1,pe2,mem,cpu,log):
+def callTrinityAssembler(pe1,pe2,mem,cpu,out):
 	"""docstring"""
-	print 120*'#'+'\n'+25*' '+'Trinity assembly using ' + pe1+' '+pe2+ '\n' + 120*'#'
-	subprocess.call('Trinity.pl --seqType fq --SS_lib_type RF --left {0} --right {1} \
-	--JM {2} --CPU {3} > {4} 2>&1 &'.format(), shell=True)
+	print 120*'#'+ '\n' + 25*' ' + 'Trinity assembly using ' + pe1 +' ' + pe2 + '\n' + 120*'#'
+	subprocess.call('ulimit -s unlimited', shell=True)
+	subprocess.call('Trinity.pl --full_cleanup --seqType fq --SS_lib_type RF --left {0} --right {1} \
+	--JM {2} --CPU {3} --output {4}'.format(pe1,pe2,mem,cpu,out), shell=True)
 
 # def assemblyReduction():ll
 
@@ -217,8 +217,8 @@ def main(argv):
 			shell=True) # split paired fq before Trinity, then rename files:
 			os.rename(M_ID + '.trim.diginorm.deconseq.pe.fq.1',M_ID + '.trim.diginorm.deconseq.pe1.fq')
 			os.rename(M_ID + '.trim.diginorm.deconseq.pe.fq.2',M_ID + '.trim.diginorm.deconseq.pe2.fq')
-			#callTrinityAssembler(M_ID + '.trim.diginorm.deconseq.pe1.fq',M_ID +\'.trim.diginorm.deconseq.pe2.fq',MEM_TOT,CPU_TOT,'../assembly/' + M_ID + '.trinity.log')		
-			
+			callTrinityAssembler(M_ID + '.trim.diginorm.deconseq.pe1.fq',M_ID + '.trim.diginorm.deconseq.pe2.fq',MEM_TOT + 'G',CPU_TOT,TMP_DIR + '/' + M_ID + '/assemblies/' + M_ID)	
+			os.rename('../assemblies/' + M_ID + '.Trinity.fasta','../assemblies/' + M_ID + '.trinity.contig.nt.fa') 			
 			
 			
 			
