@@ -2,9 +2,9 @@
 #title			:mmetsp_analysis.py
 #description	:This script will launch a de novo MMETSP transcriptome assembly
 #author			:Adam Monier (marinebugs~at~gmail~dot~com)
-#date			:20140406
+#date			:20140408
 #version		:0.1    
-#usage			:python mmetsp_analysis.py [MMETSP identifier] > log 2>&1 &
+#usage			:python mmetsp_analysis.py -i [MMETSP identifier] > log 2>&1 &
 #notes			:AWS CLI tools are required for this script if backup in the cloud.
 #notes			:Bioinformatics 3rd party tools: trimmomatic-0.32, Trinity, deconseq
 #notes			:blast+, fastQC, prinseq
@@ -12,25 +12,18 @@
 #python_version	:Python 2.7.6, Anaconda 1.9.1 (x86_64)
 #===============================================================================
 
-"""
-Downloads MMETSP data from CAMERA ftp server.
-
-% python mmetsp_download.py  <M_ID> <reads, peptides, contigs, cds, annotation OR all> ...
-
-"""
-
 import os, sys, glob, subprocess, getopt
 from ftplib import FTP
 
 #M_ID = 'MMETSP0004' 
 # MMETSP_ID, will need a split if "_" found
 # .split('.')[0]
-APPS_DIR = '/Applications/Bioinformatics'
-ADAPT = '/Applications/Bioinformatics/Trimmomatic-0.32/adapters/TruSeq3-PE-2.fa'
+APPS_DIR = '/home/ubuntu'
+ADAPT = '/home/ubuntu/apps/Trimmomatic-0.32/adapters/TruSeq3-PE-2.fa'
 #AWS_EPH = '/mnt/data1' # instance ephemeral mount
-TMP_DIR = '/Users/adammonier/Dropbox/Work/Projects/MMETSP/test2'
-MEM_TOT = '4G'
-CPU_TOT = '4'
+TMP_DIR = '/home/ubuntu/tmp'
+MEM_TOT = '1G'
+CPU_TOT = '2'
 
 class cd:
     """Context manager for changing the current working directory"""
@@ -175,7 +168,8 @@ def main(argv):
 	buildProjectDir(M_ID) #will need to add AWS_EPH/
 	with cd(TMP_DIR + '/' + M_ID): # project context
 		#downloadData(M_ID,'reads') # download read tar archive
-		subprocess.call('cp /Users/adammonier/Dropbox/Work/Projects/MMETSP/dummie.fastq.tar {0}/{1}'.format(TMP_DIR,M_ID), shell=True)
+		subprocess.call('cp /home/ubuntu/apps/MMETSP/dummy.fastq.tar {0}/{1}'\
+		.format(TMP_DIR,M_ID), shell=True) # using dummy instead of downloaded MMETSP data
 		
 		subprocess.call('tar xvf {0}.fastq.tar; rm {0}.fastq.tar'.format(M_ID), \
 		shell=True) # untar read archive
