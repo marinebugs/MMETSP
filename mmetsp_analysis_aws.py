@@ -16,18 +16,22 @@
 import os, sys, glob, subprocess, getopt
 from ftplib import FTP
 
-#M_ID = 'MMETSP0004' 
-# MMETSP_ID, will need a split if "_" found
-# .split('.')[0]
+
 APPS_DIR = '/home/ubuntu/apps'
 ADAPT = '/home/ubuntu/apps/Trimmomatic-0.32/adapters/TruSeq3-PE-2.fa'
 #AWS_EPH = '/mnt/data1' # instance ephemeral mount
 TMP_DIR = '/home/ubuntu/tmp'
-MEM_TOT = '6'  
-CPU_TOT = '2'
 DECONSEQ_DB = 'plast'
 BLAST_CHIM_DB = '/home/ubuntu/data/protist/protistDB.pep'
 HEADER = '\n'+120*'#'+'\n'+25*' '
+
+##### Get CPU and RAM values
+cmd = "awk 'NR==1{print $2/1048576-0.5}' /proc/meminfo"  # keep some mem.
+mem_proc = subprocess.check_output(cmd, shell=True)
+MEM_TOT = mem_proc[0]
+cpu_proc = subprocess.Popen('nproc', stdout=subprocess.PIPE) # assign CPU number from nproc
+CPU_TOT = cpu_proc.stdout.read().rstrip('\n')
+#####
 
 class cd:
     """Context manager for changing the current working directory"""
