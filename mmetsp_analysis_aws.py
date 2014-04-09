@@ -26,6 +26,9 @@ TMP_DIR = '/home/ubuntu/tmp'
 MEM_TOT = '6'  
 CPU_TOT = '2'
 DECONSEQ_DB = 'plast'
+BLAST_CHIM_DB = '/home/ubuntu/data/protist/protistDB.pep'
+HEADER = '\n'+120*'#'+'\n'+25*' '
+
 class cd:
     """Context manager for changing the current working directory"""
     def __init__(self, newPath):
@@ -41,7 +44,7 @@ class cd:
 
 def buildProjectDir(m_id):
 	"""docstring"""
-	print 120*'#'+'\n'+25*' '+'Building project directory structure for ' + m_id + '\n' + 120*'#'
+	print HEADER + 'Building project directory structure for ' + m_id + HEADER
 	subprocess.call('mkdir ' + TMP_DIR + '/' + m_id, shell=True)
 	dirs1 = ['reads', 'stats', 'assemblies', 'deconseq', 'proteins', 'annotation']
 	for dir1 in dirs1:
@@ -74,7 +77,7 @@ def downloadData(m_id,type):
 		ftpout = m_id + '.ncgr.cds.fa.gz'
 	else:
 		print 'wrong data type. Valid types: reads, annotation, peptides, contigs, cds'
-	print 120*'#'+'\n'+25*' '+'Downloading' + ftpfile + '\n' + 120*'#'
+	print HEADER + 'Downloading' + ftpfile + HEADER
 	ftp.retrbinary('RETR ' + ftpfile, open(ftpout, 'wb').write)
 	ftp.quit()
 	
@@ -84,7 +87,7 @@ def callTrimmomatic(pe1,pe2,trim_pe1,trim_pe2,trim_se1,trim_se2,adapters,qtrail,
 	""" Launches Trimmomatic v0.32 (http://bit.ly/1hvbUqH) on PE fastq files.
 	Detects and removes adapters from given fasta file (variable: ADAPT),
 	removes first 13-bp (see paper http://1.usa.gov/1hQpYzm)"""
-	print 120*'#'+'\n'+25*' '+'Trimmomatic on ' + pe1 + ' and ' + pe2 + '\n' + 120*'#'
+	print HEADER +'Trimmomatic on ' + pe1 + ' and ' + pe2 + HEADER
 	trimdir = APPS_DIR + '/Trimmomatic-0.32'
 	subprocess.call('java -jar {0}/trimmomatic-0.32.jar PE {1} {2} {3} {4} {5} {6} \
 	ILLUMINACLIP:{7}:2:30:10 TRAILING:{8} HEADCROP:{9}'.format(trimdir,pe1,pe2,trim_pe1,\
@@ -94,7 +97,7 @@ def callDigiNorm(pe,Cval,kval,Nval,xval):
 	""" single-pass digital normalization (arXiv: http://bit.ly/1ifqPGs) using recommended \
 	parameters.
 	Script normalize-by-median.py is part of the khmer suite (GitHub: http://bit.ly/PLHMB8)."""
-	print 120*'#'+'\n'+25*' '+'Digital normalization on ' + pe + '\n' + 120*'#'
+	print HEADER +'Digital normalization on ' + pe + HEADER
 	subprocess.call('normalize-by-median.py -C {0} -k {1} -N {2} -x {3} {4}'\
 	.format(Cval,kval,Nval,xval,pe), shell=True)
 	 # might need to add APPS_DIR + bin/
@@ -102,7 +105,7 @@ def callDigiNorm(pe,Cval,kval,Nval,xval):
 
 def callDeconseq(pe,id,dbs,outdir):
 	"""docstring"""
-	print 120*'#'+'\n'+25*' '+'Deconseq on ' + pe + '\n' + 120*'#'
+	print HEADER +'Deconseq on ' + pe + HEADER
 	subprocess.call('deconseq.pl -f {0} -id {1}.trim.pe.diginorm.deconseq -keep_tmp_files\
 	-dbs {2} -out_dir {3} 2>/dev/null'.format(pe,id,dbs,outdir), shell=True)
 	
@@ -126,13 +129,13 @@ def fancyPlots(pe,outdir):
 			
 def callFastQC(pe,outdir):
 	"""docstring"""
-	print 120*'#'+'\n'+25*' '+'FastQC analysis for ' + pe + '\n' + 120*'#'
+	print HEADER +'FastQC analysis for ' + pe + HEADER
 	subprocess.call('fastqc {0} -o {1}'.format(pe,outdir), shell=True)
 	
 	
 def callTrinityAssembler(pe1,pe2,mem,cpu,out):
 	"""docstring"""
-	print 120*'#'+ '\n' + 25*' ' + 'Trinity assembly using ' + pe1 +' ' + pe2 + '\n' + 120*'#'
+	print HEADER + 'Trinity assembly using ' + pe1 +' ' + pe2 + HEADER
 	subprocess.call('ulimit -s unlimited', shell=True)
 	subprocess.call('Trinity.pl --full_cleanup --seqType fq --SS_lib_type RF --left {0} --right {1} \
 	--JM {2} --CPU {3} --output {4}'.format(pe1,pe2,mem,cpu,out), shell=True)
@@ -141,16 +144,30 @@ def callTrinityAssembler(pe1,pe2,mem,cpu,out):
 def assemblyReduction(id,contig,petrim1,petrim2,cpu,outdir):
 	#subprocess.call('run_RSEM_align_n_estimate.pl --transcripts /home/ubuntu/tmp/dummy/assemblies/dummy.trinity.contig.nt.fa --seqType fq --left /home/ubuntu/tmp/dummy/reads/dummy.trim.pe1.fq --right /home/ubuntu/tmp/dummy/reads/dummy.trim.pe2.fq --thread_count 2 --output_dir /home/ubuntu/tmp/dummy/assemblies', shell=True)
 	cw = os.getcwd()
+	print HEADER + 'RSEM using ' + petrim1 +' and ' + petrim2 + ' on ' + contig + HEADER
 	subprocess.call('run_RSEM_align_n_estimate.pl --transcripts {0} --seqType fq --left {1} --right {2} --thread_count {3} --output_dir {4}'.format(contig,petrim1,petrim2,cpu,outdir), shell=True)
+	print HEADER + 'Picking isoforms for ' + contig + HEADER
 	subprocess.call('pick_isoform_trinity_RSEM.py {0}/RSEM.isoforms.results {1}'.format(outdir,contig), shell=True)
 	os.rename('{0}/{1}.trinity.contig.nt.fa.exemplar'.format(outdir,id),'{0}/{1}.trinity.pickH.contig.nt.fa'.format(outdir,id))
+	print HEADER + 'CAP3 on ' + '{0}/{1}.trinity.pickH.contig.nt.fa'.format(outdir,id) + HEADER
 	subprocess.call('cap3 {0}/{1}.trinity.pickH.contig.nt.fa -o 200 -p 99'.format(outdir,id), shell=True)
 	os.rename('{0}/{1}.trinity.pickH.contig.nt.fa.cap.contigs'.format(outdir,id),'{0}/{1}.trinity.pickH.cap3.contig.nt.fa'.format(outdir,id))
+	print HEADER + 'CD-HIT-EST on ' + '{0}/{1}.trinity.pickH.cap3.contig.nt.fa'.format(outdir,id) + HEADER
 	subprocess.call('cd-hit-est -i {0}/{1}.trinity.pickH.cap3.contig.nt.fa -o {0}/{1}.trinity.pickH.cap3.cdhit.contig.nt.fa -c 0.99'.format(outdir,id),shell=True)
 	#subprocess.call('pick_isoform_trinity_RSEM.py {0}/RSEM.isoforms.results {1}'.format(outdir,contig))
 
-# def chimeraCheck():
-	#"""docstring"""
+def chimeraCheck(id,query,output,outdir,db,maxseq,eval,minsize):
+	"""docstring"""
+	print HEADER +'BLASTX of ' + query + ' vs. ' + db + HEADER
+	outformat = "'6 qseqid qlen sseqid slen frames pident nident length mismatch gapopen qstart qend sstart send evalue bitscore'"
+	print 'blastx -db {0} -query {1} -evalue {2} -outfmt {3} -out {4} -num_threads={5} -max_target_seqs {6}'.format(db,query,eval,outformat,output,CPU_TOT,maxseq)
+	subprocess.call('blastx -db {0} -query {1} -evalue {2} -outfmt {3} -out {4} -num_threads={5} -max_target_seqs {6}'.format(db,query,eval,outformat,output,CPU_TOT,maxseq), shell=True)
+	print 120*'#'+'\n'+25*' '+'Detect chimera from ' + output + '\n' + 120*'#'
+	subprocess.call('detect_chimera_from_blastx.py ' + outdir, shell=True)
+	subprocess.call('cp assemblies/{0}.trinity.pickH.cap3.cdhit.contig.blastx.cut assemblies/{0}.blastx.cut'.format(id),shell=True) # copy and rename cut output for next step
+	subprocess.call('cp {0} {0}.before_cut'.format(query),shell=True)
+	print 120*'#'+'\n'+25*' '+'Cut chimeras from ' + query  + '\n' + 120*'#'
+	subprocess.call('cut_chimera_from_blastx.py {0} {0} {1}'.format(outdir,minsize),shell=True)
 	
 # def assemblyStat():
 	#"""docstring"""
@@ -159,12 +176,12 @@ def assemblyReduction(id,contig,petrim1,petrim2,cpu,outdir):
 
 # buildResultLog()
 
-def cleanUp():
+def cleanUp(id):
 	"""docstring"""
 	subprocess.call('rm stats/*/*.zip',shell=True)
 	subprocess.call('rm -r assemblies/RSEM.*',shell=True)
 	subprocess.call('rm assemblies/*.fa.*',shell=True)
-	
+	subprocess.call('rm assemblies/{0}.blastx.cut'.format(id),shell=True)
 	
 def main(argv):
 	try:
@@ -238,7 +255,12 @@ def main(argv):
 		with cd(TMP_DIR + '/' + M_ID):
 			
 			assemblyReduction(M_ID,'assemblies/' + M_ID + '.trinity.contig.nt.fa','reads/' + M_ID + '.trim.pe1.fq','reads/' + M_ID + '.trim.pe2.fq',CPU_TOT,'assemblies')
-			cleanUp()
+			subprocess.call('cp assemblies/{0}.trinity.contig.nt.fa assemblies/{0}.trinity.pickH.cap3.cdhit.contig.nt.fa'.format(M_ID), shell=True) #TEST
+			chimeraCheck(M_ID,'assemblies/'+ M_ID + '.trinity.pickH.cap3.cdhit.contig.nt.fa','assemblies/'+ M_ID + '.trinity.pickH.cap3.cdhit.contig.blastx','assemblies',BLAST_CHIM_DB,100,0.01,1)
+			
+			
+			
+			cleanUp(M_ID)
 			
 			
 			#download remaining data with a list loop
