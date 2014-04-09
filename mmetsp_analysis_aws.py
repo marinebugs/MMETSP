@@ -25,7 +25,7 @@ ADAPT = '/home/ubuntu/apps/Trimmomatic-0.32/adapters/TruSeq3-PE-2.fa'
 TMP_DIR = '/home/ubuntu/tmp'
 MEM_TOT = '6'  
 CPU_TOT = '2'
-
+DECONSEQ_DB = 'plast'
 class cd:
     """Context manager for changing the current working directory"""
     def __init__(self, newPath):
@@ -137,16 +137,18 @@ def callTrinityAssembler(pe1,pe2,mem,cpu,out):
 	subprocess.call('Trinity.pl --full_cleanup --seqType fq --SS_lib_type RF --left {0} --right {1} \
 	--JM {2} --CPU {3} --output {4}'.format(pe1,pe2,mem,cpu,out), shell=True)
 
-def assemblyReduction(id,contig,petrim1,petrim2,cpu,outdir):
-	"""docstring"""
-	subprocess.call('.run_RSEM_align_n_estimate.pl --transcripts {0} --seqType fq --left {1}\
-	 --right {2} --thread_count {3} --output_dir {4}'.format(contig,petrim1,petrim2,cpu,outdir)
-	subprocess.call('pick_isoform_trinity_RSEM.py {0}/RSEM.isoforms.results {0}/{1}').format(outdir,contig)
-	os.rename('{0}/{1}.trinity.contig.nt.fa.exemplar'.format(outdir,id),'{0}/{1}.trinity.pickH.contig.nt.fa'.format(outdir,id))
-	subprocess.call('cap3 Trinity.fasta.exemplar -o 200 -p 99')
-	os.rename('{0}/{1}.trinity.pickH.contig.nt.fa.cap.contigs'.format(outdir,id),'{0}/{1}.trinity.pickH.cap3.contig.nt.fa'.format(outdir,id))
-	subprocess.call('cd-hit-est -i {0}/{1}.trinity.pickH.cap3.contig.nt.fa -o {0}/{1}.trinity.pickH.cap3.cdhit.contig.nt.fa -c 0.99'.format(outdir,id))
 	
+def assemblyReduction(id,contig,petrim1,petrim2,cpu,outdir):
+	#subprocess.call('run_RSEM_align_n_estimate.pl --transcripts /home/ubuntu/tmp/dummy/assemblies/dummy.trinity.contig.nt.fa --seqType fq --left /home/ubuntu/tmp/dummy/reads/dummy.trim.pe1.fq --right /home/ubuntu/tmp/dummy/reads/dummy.trim.pe2.fq --thread_count 2 --output_dir /home/ubuntu/tmp/dummy/assemblies', shell=True)
+	cw = os.getcwd()
+	subprocess.call('run_RSEM_align_n_estimate.pl --transcripts {0} --seqType fq --left {1} --right {2} --thread_count {3} --output_dir {4}'.format(contig,petrim1,petrim2,cpu,outdir), shell=True)
+	subprocess.call('pick_isoform_trinity_RSEM.py {0}/RSEM.isoforms.results {1}'.format(outdir,contig), shell=True)
+	os.rename('{0}/{1}.trinity.contig.nt.fa.exemplar'.format(outdir,id),'{0}/{1}.trinity.pickH.contig.nt.fa'.format(outdir,id))
+	subprocess.call('cap3 {0}/{1}.trinity.pickH.contig.nt.fa -o 200 -p 99'.format(outdir,id), shell=True)
+	os.rename('{0}/{1}.trinity.pickH.contig.nt.fa.cap.contigs'.format(outdir,id),'{0}/{1}.trinity.pickH.cap3.contig.nt.fa'.format(outdir,id))
+	subprocess.call('cd-hit-est -i {0}/{1}.trinity.pickH.cap3.contig.nt.fa -o {0}/{1}.trinity.pickH.cap3.cdhit.contig.nt.fa -c 0.99'.format(outdir,id),shell=True)
+	#subprocess.call('pick_isoform_trinity_RSEM.py {0}/RSEM.isoforms.results {1}'.format(outdir,contig))
+
 # def chimeraCheck():
 	#"""docstring"""
 	
@@ -159,6 +161,9 @@ def assemblyReduction(id,contig,petrim1,petrim2,cpu,outdir):
 
 def cleanUp():
 	"""docstring"""
+	subprocess.call('rm stats/*/*.zip',shell=True)
+	subprocess.call('rm -r assemblies/RSEM.*',shell=True)
+	subprocess.call('rm assemblies/*.fa.*',shell=True)
 	
 	
 def main(argv):
@@ -210,7 +215,7 @@ def main(argv):
 			os.rename(M_ID + '.trim.pe.fq.keep', M_ID + '.trim.diginorm.pe.fq') # rename DigiNorm fq output
 			ncgr_fq_dn = 'reads/{}.trim.diginorm.pe.fq'.format(M_ID)
 			
-		callDeconseq(ncgr_fq_dn,M_ID,'plast','deconseq/') # Deconseq on DigiNorm clean fq
+		callDeconseq(ncgr_fq_dn,M_ID,DECONSEQ_DB,'deconseq/') # Deconseq on DigiNorm clean fq
 		os.rename('deconseq/' + M_ID + '.trim.pe.diginorm.deconseq_clean.fq','reads/' \
 		+ M_ID + '.trim.diginorm.deconseq.pe.fq') # move deconseq fq output to reads folder
 		os.rename('deconseq/' + M_ID + '.trim.pe.diginorm.deconseq_cont.fq','deconseq/' \
@@ -230,7 +235,10 @@ def main(argv):
 			callTrinityAssembler(M_ID + '.trim.diginorm.deconseq.pe1.fq',M_ID + '.trim.diginorm.deconseq.pe2.fq',\
 			MEM_TOT + 'G',CPU_TOT,TMP_DIR + '/' + M_ID + '/assemblies/' + M_ID)	
 			os.rename('../assemblies/' + M_ID + '.Trinity.fasta','../assemblies/' + M_ID + '.trinity.contig.nt.fa') 			
+		with cd(TMP_DIR + '/' + M_ID):
 			
+			assemblyReduction(M_ID,'assemblies/' + M_ID + '.trinity.contig.nt.fa','reads/' + M_ID + '.trim.pe1.fq','reads/' + M_ID + '.trim.pe2.fq',CPU_TOT,'assemblies')
+			cleanUp()
 			
 			
 			#download remaining data with a list loop
