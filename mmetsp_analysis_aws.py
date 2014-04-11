@@ -3,7 +3,7 @@
 #description	:This script will launch a de novo MMETSP transcriptome assembly
 #author			:Adam Monier (marinebugs~at~gmail~dot~com)
 #date			:20140408
-#version		:0.1    
+#version		:0.2    
 #usage			:python mmetsp_analysis.py -i [MMETSP identifier] > log 2>&1 &
 #notes			:AWS CLI tools are required for this script if backup in the cloud.
 #notes			:Bioinformatics 3rd party tools: trimmomatic-0.32, Trinity, deconseq
