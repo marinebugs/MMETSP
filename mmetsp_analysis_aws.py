@@ -20,8 +20,8 @@ from ftplib import FTP
 APPS_DIR = '/home/ubuntu/apps'
 ADAPT = '/home/ubuntu/apps/Trimmomatic-0.32/adapters/TruSeq3-PE-2.fa'
 #AWS_EPH = '/mnt/data1' # instance ephemeral mount
-#TMP_DIR = '/mnt/data1'
-TMP_DIR = '/home/ubuntu/tmp' # CHANGE TO PROJECT DIR
+TMP_DIR = '/mnt/data1'
+#TMP_DIR = '/home/ubuntu/tmp' # CHANGE TO PROJECT DIR
 DECONSEQ_DB = 'plast'
 BLAST_CHIM_DB = '/home/ubuntu/data/protist/protistDB.pep'
 HEADER = '\n'+120*'#'+'\n'+25*' '
@@ -204,7 +204,7 @@ def main(argv):
 	buildProjectDir(M_ID) #will need to add AWS_EPH/
 	with cd(TMP_DIR + '/' + M_ID): # project context
 		#downloadData(M_ID,'reads') # download read tar archive
-		subprocess.call('cp /home/ubuntu/apps/MMETSP/dummy.fastq.tar {0}/{1}'.format(TMP_DIR,M_ID), shell=True) # using dummy instead of downloaded MMETSP data
+		subprocess.call('cp /home/ubuntu/apps/MMETSP/dummy.ncgr.fq.tar {0}/{1}'.format(TMP_DIR,M_ID), shell=True) # using dummy instead of downloaded MMETSP data
 		
 		subprocess.call('tar xvf {0}.ncgr.fq.tar; rm {0}.ncgr.fq.tar'.format(M_ID), \
 		shell=True) # untar read archive
