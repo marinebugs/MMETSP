@@ -2,9 +2,9 @@
 #title			:mmetsp_analysis.py
 #description	:This script will launch a de novo MMETSP transcriptome assembly
 #author			:Adam Monier (marinebugs~at~gmail~dot~com)
-#date			:20140408
-#version		:0.2    
-#usage			:python mmetsp_analysis.py -i [MMETSP identifier] > log 2>&1 &
+#date			:20140415
+#version		:0.3    
+#usage			:python mmetsp_analysis.py -i [MMETSP identifier]
 #notes			:AWS CLI tools are required for this script if backup in the cloud.
 #notes			:Bioinformatics 3rd party tools: trimmomatic-0.32, Trinity, deconseq
 #notes			:blast+, fastQC, prinseq
@@ -16,22 +16,22 @@
 import os, sys, glob, subprocess, getopt
 from ftplib import FTP
 
-
+##### Hard-coded variables
 APPS_DIR = '/home/ubuntu/apps'
 ADAPT = '/home/ubuntu/apps/Trimmomatic-0.32/adapters/TruSeq3-PE-2.fa'
 #AWS_EPH = '/mnt/data1' # instance ephemeral mount
-TMP_DIR = '/home/ubuntu/tmp'
+TMP_DIR = '/mnt/data1'
+#TMP_DIR = '/home/ubuntu/tmp' # CHANGE TO PROJECT DIR
 DECONSEQ_DB = 'plast'
 BLAST_CHIM_DB = '/home/ubuntu/data/protist/protistDB.pep'
 HEADER = '\n'+120*'#'+'\n'+25*' '
 
 ##### Get CPU and RAM values
-cmd = "awk 'NR==1{print $2/1048576-0.5}' /proc/meminfo"  # keep some mem.
+cmd = "awk 'NR==1{print $2/1048576-0.5}' /proc/meminfo"  # keep 0.5G mem. for misc processes
 mem_proc = subprocess.check_output(cmd, shell=True)
 MEM_TOT = mem_proc[0]
 cpu_proc = subprocess.Popen('nproc', stdout=subprocess.PIPE) # assign CPU number from nproc
 CPU_TOT = cpu_proc.stdout.read().rstrip('\n')
-#####
 
 class cd:
     """Context manager for changing the current working directory"""
@@ -45,9 +45,8 @@ class cd:
     def __exit__(self, etype, value, traceback):
         os.chdir(self.savedPath)
 
-
 def buildProjectDir(m_id):
-	"""docstring"""
+	"""build directory structure for MMETSP analysis"""
 	print HEADER + 'Building project directory structure for ' + m_id + HEADER
 	subprocess.call('mkdir ' + TMP_DIR + '/' + m_id, shell=True)
 	dirs1 = ['reads', 'stats', 'assemblies', 'deconseq', 'proteins', 'annotation']
@@ -57,6 +56,7 @@ def buildProjectDir(m_id):
 	'trinity.pickH.reduced','trinity.pickH.reduced.chimera']
 	for dir2 in dirs2:
 		subprocess.call('mkdir ' + TMP_DIR + '/' + m_id + '/stats/' + dir2, shell=True)
+	#subprocess.call('sudo chown -R ubuntu:ubuntu /mnt/data1/', shell=True)
 	
 	
 def downloadData(m_id,type):
@@ -204,23 +204,25 @@ def main(argv):
 	buildProjectDir(M_ID) #will need to add AWS_EPH/
 	with cd(TMP_DIR + '/' + M_ID): # project context
 		#downloadData(M_ID,'reads') # download read tar archive
-		subprocess.call('cp /home/ubuntu/apps/MMETSP/dummy.fastq.tar {0}/{1}'\
-		.format(TMP_DIR,M_ID), shell=True) # using dummy instead of downloaded MMETSP data
+		subprocess.call('cp /home/ubuntu/apps/MMETSP/dummy.fastq.tar {0}/{1}'.format(TMP_DIR,M_ID), shell=True) # using dummy instead of downloaded MMETSP data
 		
-		subprocess.call('tar xvf {0}.fastq.tar; rm {0}.fastq.tar'.format(M_ID), \
+		subprocess.call('tar xvf {0}.ncgr.fq.tar; rm {0}.ncgr.fq.tar'.format(M_ID), \
 		shell=True) # untar read archive
 		
 		for filename in glob.glob('*.fastq.gz'): # rename fq files and gunzip
 			if filename[-10] == '1':
 				os.rename(filename,'reads/' + M_ID + '.ncgr.pe1.fq.gz') # rename file
+				subprocess.call('chown root:root reads/{}.ncgr.pe1.fq.gz'.format(M_ID), shell=True)
 				subprocess.call('gunzip -f reads/' + M_ID + '.ncgr.pe1.fq.gz', shell=True) # unzip fq
 				ncgr_fq1 = M_ID + '.ncgr.pe1.fq' # assign vairable name to ncgr fq file
 			elif filename[-10] == '2':
 				os.rename(filename,'reads/' + M_ID + '.ncgr.pe2.fq.gz')
+				subprocess.call('chown root:root reads/{}.ncgr.pe2.fq.gz'.format(M_ID), shell=True)
 				subprocess.call('gunzip -f reads/' + M_ID + '.ncgr.pe2.fq.gz', shell=True) 
 				ncgr_fq2 = M_ID + '.ncgr.pe2.fq'
 			else: # in case fq is absent or bad name
 				print 'Error in main(): bad file names in renaiming NCGR fq files'
+				# exit?
 				
 		with cd(TMP_DIR + '/' + M_ID + '/reads'): # reads context
 			callTrimmomatic(ncgr_fq1,ncgr_fq2,M_ID + '.trim.pe1.fq',M_ID + '.trim.pe2.fq',M_ID +\
